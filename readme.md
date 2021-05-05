@@ -6,7 +6,7 @@
 
   <h3 align="center">Simple Database for Basic MMA Fighter Info</h3>
 
-  <p align="center">
+  <p align="left">
     A simple database that allows you to load, create, and modify records of basic MMA fighter data such as name, nickname, height, weight, and reach
     <br />
     <a href="https://github.com/davidshawver/finalprojectCSC212/"><strong>Explore the docs »</strong></a>
