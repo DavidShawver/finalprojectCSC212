@@ -75,7 +75,7 @@
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-
+*  Ability to run a bash shell
 *  g++ compiler
   ```sh
   $ sudo apt install build-essential
@@ -95,7 +95,7 @@ To get a local copy up and running follow these simple steps.
    ```
 ### Load the CSV Files
 
-Two sample CSV files are provided to create the database.  Additional webscraper files can also be downloaded <a href=https://www.dropbox.com/s/o88087phvf9veow/fightmetric.csv?dl=0> from this website</a>, but will require the reordering of columns and removal of all columns after column 10.  This can be done using Microsoft excel.
+Two sample CSV files are provided to create the database.  Additional webscraper files can also be downloaded <a href=https://www.dropbox.com/s/o88087phvf9veow/fightmetric.csv?dl=0> from this website</a>, but will require the reordering of columns and removal of all columns after column 10.  This can be done using Microsoft excel or Google sheets.
 
 
 <!-- USAGE EXAMPLES -->
