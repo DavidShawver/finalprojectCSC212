@@ -64,7 +64,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 *  Ability to run a bash shell
-*  A C++ compiler must also be installed.  This program was written using g++, which can be installed on linux systems using the below command.
+*  A C++ compiler must also be installed.  This program was written using g++. This compiler can be installed on linux systems using the below command.
   ```sh
   $ sudo apt install build-essential
   ```
