@@ -1,7 +1,7 @@
-<img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg">
+<img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" align="center" width="875" height="420" alt="UFC Logo">
 <br />
 <p align="center">
-  <a href="https://github.com/davidshawver/finalprojectCSC212" width="437" height="210" alt="Computer Hope">
+  <a href="https://github.com/davidshawver/finalprojectCSC212">
   </a>
 
   <h3 align="center">Simple Database for Basic MMA Fighter Info</h3>
