@@ -1,6 +1,4 @@
-<div>
-<img style="margin:10px auto 20px;display: block;" src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" width="875" height="420" alt="UFC Logo">
-</div>
+<img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" width="500" height="300" alt="UFC Logo">
 
 <br />
 <p align="center">
@@ -10,7 +8,7 @@
   <a href="https://github.com/davidshawver/finalprojectCSC212">
   </a>
 
-  <h3 align="center">Simple Database for Basic MMA Fighter Info</h3>
+  <h3 align="left">Simple Database for Basic MMA Fighter Info</h3>
 
   <p align="left">
     A simple database that allows you to load, create, and modify records of basic MMA fighter data such as name, nickname, height, weight, and reach
