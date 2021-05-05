@@ -154,8 +154,6 @@ Project Link: [https://github.com/davidshawver/finalprojectCSC212](https://githu
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/davidshawver/finalprojectCSC212/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/davidshawver/finalprojectCSC212/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/davidshawver
 
