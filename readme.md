@@ -97,7 +97,7 @@ Two sample CSV files are included in this repository to try the program
 <br />
 The data are from a database which includes every UFC fighter since the league was formed.  Updated web-scraper CSV files with new fighers and updated wins and losses can always be downloaded <a href="https://www.dropbox.com/s/o88087phvf9veow/fightmetric.csv?dl=0"> from here</a>, but will require the reordering of columns and removal of all columns after column 10 (can be done using Microsoft excel or Google sheets).</p>
 <p>Once the program has loaded from the make file, a menu appears.  Select the first option to load from csv file.</p>
-<img src="https://github.com/DavidShawver/finalproject.CSC212/blob/master/assets/ss1.png">
+<img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/assets/SS1.png">
 
 
 <!-- USAGE EXAMPLES -->
