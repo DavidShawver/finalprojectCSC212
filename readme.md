@@ -1,4 +1,6 @@
-<img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" width="500" height="300" alt="UFC Logo">
+<p></p>
+<p></p>
+<p align="center"><img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" width="400" height="220" alt="UFC Logo"></p>
 
 <br />
 <p align="center">
