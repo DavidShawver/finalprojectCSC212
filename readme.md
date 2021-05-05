@@ -106,7 +106,7 @@ The data are from a database which includes every UFC fighter since the league w
 <p>Next, since we are not loading from a saved file that is generated from the program, we want to select option 1 to load the data from a csv file.  Next, type in the name of the csv which you want to load and is in the project folder (in this case fightmetric.csv) and press enter.  Your CSV records should now be loaded into the database!  You can next choose whether to display the records on the screen and you are taken back to the main menu.</p>
 <p align="center"><img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/assets/SS2.png" width="500" height="300" alt="menu screenshot"></p>
 
-### Try Out the Program
+### Use the Program
 
 <p>The rest of the program is self-explanatory based on the menu prompts.  There is a main menu that allows you to read in fighter data, (provided it is a CSV with the proper columns), search for a fighter record (either exact search or contains search), modify a fighter record, delete a fighter record, sort the records, display all of the records or save the records to a file, which can be subsequently loaded back into the program at a later time.  This allows you to save your work if you have done any modification of the records from the csv file.</p>
 
