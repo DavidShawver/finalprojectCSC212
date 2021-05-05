@@ -1,8 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg">
 <br />
 <p align="center">
