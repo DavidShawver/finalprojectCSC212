@@ -1,5 +1,8 @@
-<p></p>
-<p></p>
+ <p style="font-size:18px;">David Shawver</p>
+ <p style="font-size:18px;">CSC 212</p>
+ <p style="font-size:18px;">May 5, 2021</p>
+
+
 <p align="center"><img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" width="400" height="220" alt="UFC Logo"></p>
 
 <br />
