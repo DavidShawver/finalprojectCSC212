@@ -38,7 +38,7 @@ May 6, 2021<br />
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#purpose">Purpose</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -52,6 +52,12 @@ May 6, 2021<br />
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
+<!-- USAGE EXAMPLES -->
+## Purpose
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- GETTING STARTED -->
 # Getting Started
@@ -109,16 +115,6 @@ The data are from a database which includes every UFC fighter since the league w
 ### Use the Program
 
 <p>The rest of the program is self-explanatory based on the menu prompts.  There is a main menu that allows you to read in fighter data, (provided it is a CSV with the proper columns), search for a fighter record (either exact search or contains search), modify a fighter record, delete a fighter record, sort the records, display all of the records or save the records to a file, which can be subsequently loaded back into the program at a later time.  This allows you to save your work if you have done any modification of the records from the csv file.</p>
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
