@@ -21,8 +21,6 @@ May 6, 2021<br />
     ·
     <a href="https://github.com/davidshawver/finalprojectCSC212/"><strong>Explore the docs »</strong></a>
     <br />
-    ·
-    <a href="https://github.com/davidshawver/finalprojectCSC212/issues"><strong>Request Feature</strong></a>
   </p>
 </p>
 
