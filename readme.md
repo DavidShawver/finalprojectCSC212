@@ -5,8 +5,6 @@ May 6, 2021<br />
 </p>
 <br />
 <br />
-<br />
-<br />
 
 <p align="center"><img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" width="400" height="220" alt="UFC Logo"></p>
 <p align="center">
