@@ -60,7 +60,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 *  Ability to run a bash shell
-*  g++ compiler, can be installed with below command.
+*  A C++ compiler must also be installed.  This program was written using g++, which can be installed on linux systems using the below command.
   ```sh
   $ sudo apt install build-essential
   ```
@@ -73,7 +73,11 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/davidshawver/finalprojectCSC212.git
    ```
-2. Run make file
+2. Run make file:
+   ```sh
+   make
+   ```
+   Or use the below commands:
    ```sh
    make
    ```
