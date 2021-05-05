@@ -14,7 +14,7 @@ May 6, 2021<br />
   <h1 align="center" style="font-size:40px">Simple Database for Basic MMA Fighter Info</h1>
 
   <p align="left"><ul><li>
-    A simple database that allows you to load, create, and modify records of basic MMA fighter data such as name, nickname, height, weight, and reach
+    A simple database that allows you to load, create, search, sort, save, and modify records of basic MMA fighter data such as name, nickname, height, weight, and reach
   </li><li>Explore the
   <a align="center" href="https://github.com/davidshawver/finalprojectCSC212/"><strong> docs</strong></a></li></ul>
     <br />
