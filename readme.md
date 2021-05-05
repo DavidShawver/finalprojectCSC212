@@ -77,9 +77,9 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* g++ compiler
+*  g++ compiler
   ```sh
- $ sudo apt install build-essential
+  $ sudo apt install build-essential
   ```
 
 ### Installation
