@@ -82,7 +82,7 @@ To get a local copy up and running follow these simple steps.
    ```
    Or use the below commands:
    ```sh
-   $ g++ -std=c++11 -Wall main.cpp BSTree.cpp MMAFighters.cpp -o prog
+   $ g++ -std=c++11 -Wall main.cpp BSTree.cpp MMAFighters.cpp -o prog && ./prog
    ```
 ### Load the CSV Files
 
