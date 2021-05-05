@@ -79,7 +79,7 @@ To get a local copy up and running follow these simple steps.
    ```
    Or use the below commands:
    ```sh
-   make
+   $ g++ -std=c++11 -Wall main.cpp BSTree.cpp MMAFighters.cpp -o prog
    ```
 ### Load the CSV Files
 
@@ -108,7 +108,7 @@ The data are from a database which includes every UFC fighter since the league w
 
 ### Try Out the Program
 
-<p>The rest of the program is largely self-explanatory based on the menu prompts.  There is a main menu that allows you to read in fighter data, (provided it is a CSV with the proper columns), search for a fighter record (either exact search or contains search), modify a fighter record, delete a fighter record, sort the records, display all of the records or save the records to a file, which can be subsequently loaded back into the program at a later time.  This is a nice feature that allows you to save your work if you have done any modification of the records from the csv file.</p>
+<p>The rest of the program is largely self-explanatory based on the menu prompts.  There is a main menu that allows you to read in fighter data, (provided it is a CSV with the proper columns), search for a fighter record (either exact search or contains search), modify a fighter record, delete a fighter record, sort the records, display all of the records or save the records to a file, which can be subsequently loaded back into the program at a later time.  This allows you to save your work if you have done any modification of the records from the csv file.</p>
 
 
 <!-- USAGE EXAMPLES -->
