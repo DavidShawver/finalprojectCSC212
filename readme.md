@@ -3,14 +3,16 @@
 CSC 212 Final Project<br />
 May 6, 2021<br />
 </p>
-<p />
-<p />
-
+<br />
+<br />
+<br />
+<br />
 
 <p align="center"><img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" width="400" height="220" alt="UFC Logo"></p>
 
 <br />
 <p align="center">
+
 
 
   
