@@ -52,7 +52,6 @@ May 6, 2021<br />
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 <!-- GETTING STARTED -->
 # Getting Started
@@ -66,7 +65,7 @@ To get a local copy up and running follow these simple steps.
   $ sudo apt install build-essential
   ```
 
-## Using the Program:
+## Using the Program
 
 ### Installation
 
@@ -80,7 +79,7 @@ To get a local copy up and running follow these simple steps.
    ```
 ### Load the CSV Files
 
-Two sample CSV files are provided to create the database.  Additional webscraper files can also be downloaded <a href=https://www.dropbox.com/s/o88087phvf9veow/fightmetric.csv?dl=0> from this website</a>, but will require the reordering of columns and removal of all columns after column 10.  This can be done using Microsoft excel or Google sheets.
+Two sample CSV files are provided in this repository to try with the program, the first is <a href="https://github.com/DavidShawver/finalprojectCSC212/blob/master/fightmetric.csv">"fightmetric.csv"</a>, which contains all of the data, and the second<a href="https://github.com/DavidShawver/finalproject.CSC212/blob/master/fightmetricsmaller.csv"> "fightmetricsmaller.csv"</a> which is smaller and contains only 400 entries of the data purely for trying it out with the program.  Updated web-scraper CSV files can always be downloaded <a href="https://www.dropbox.com/s/o88087phvf9veow/fightmetric.csv?dl=0"> from here</a>, but will require the reordering of columns and removal of all columns after column 10 (can be done using Microsoft excel or Google sheets).
 
 
 <!-- USAGE EXAMPLES -->
