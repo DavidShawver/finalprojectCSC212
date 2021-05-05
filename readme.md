@@ -36,8 +36,9 @@ May 6, 2021<br />
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#Using the Program">Using the Program</a></li>       
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#load-the-csv-files">Load the CSV Files</a></li>
+        <li><a href="#Using the Program">Using the Program</a></li> 
       </ul>
     </li>
     <li><a href="#purpose">Purpose</a></li>
