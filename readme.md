@@ -1,11 +1,5 @@
-<style>
-.marginauto {
-    margin: 10px auto 20px;
-    display: block;
-}
-</style>
 <div>
-<img class="marginauto" src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" width="875" height="420" alt="UFC Logo">
+<img style="margin:10px auto 20px;display: block;" src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" width="875" height="420" alt="UFC Logo">
 </div>
 
 <br />
