@@ -34,14 +34,12 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#Using the Program">Using the Program</a></li>       
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -57,31 +55,23 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-### Built With
-
-* []()
-* []()
-* []()
-
-
-
 <!-- GETTING STARTED -->
-## Getting Started
+# Getting Started
 
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 *  Ability to run a bash shell
-*  g++ compiler
+*  g++ compiler, can be installed with below command.
   ```sh
   $ sudo apt install build-essential
   ```
 
-##Using the Program:
+## Using the Program:
 
 ### Installation
 
