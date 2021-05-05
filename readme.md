@@ -79,7 +79,7 @@ To get a local copy up and running follow these simple steps.
    ```
 ### Load the CSV Files
 
-Two sample CSV files are included in this repository to try the program: 
+Two sample CSV files are included in this repository to try the program
 <table style="width:100%">
   <tr>
     <th>Filename</th>
