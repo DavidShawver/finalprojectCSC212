@@ -107,7 +107,7 @@ The data are from a database which includes every UFC fighter since the league w
 <p>Once the program has loaded from the make file, a menu appears.  Select the first option to load from file.</p>
 <p align="center"><img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/assets/SS1.png" width="500" height="300" alt="menu screenshot"></p>
 
-<p>Next, since we are not loading from a saved file that is generated from the program, we want to select option 1 to load the data from a csv file.  Next, type in the name of the csv which you want to load and is in the project folder (in this case fightmetric.csv) and press enter.  Your CSV records should now be loaded into the database!  You can next choose whether to display the records on the screen and you are taken back to the main menu.</p>
+<p>Next, since we are not loading from a saved file that is generated from the program, we want to select option 1 to load the data from a csv file.  Next, type in the name of the csv which you want to load and is in the project folder (in this case fightmetric.csv) and press enter.  Your CSV records should now be loaded into the database!  You can next choose whether to display the records on the screen and you are taken back to the main menu.  Note that the program does not currently support loading a file to add records to those currently in the database, and will instead replace all of the records currently loaded in when a new CSV file or saved file is loaded.</p>
 <p align="center"><img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/assets/SS2.png" width="500" height="300" alt="menu screenshot"></p>
 
 ### Use the Program
