@@ -1,0 +1,441 @@
+,First,Last,Nickname,Ht,Wt,Reach,Stance,Win,Loss,Draw,Total Fights,Wt_numeric,Htcm
+6,Dillon,Smith,,"6' 0""",170 lbs.,--,,0,0,0,0,170,182.88
+13,Spencer,Hearns,,"5' 11""",185 lbs.,--,,1,0,0,1,185,180.34
+14,Jenna,Castillo,,"5' 2""",125 lbs.,--,,1,0,0,1,125,157.48
+15,Shingo,Kohara,,"5' 6""",135 lbs.,--,,1,0,0,1,135,167.64
+16,Marcelo,Mello,,"5' 7""",170 lbs.,--,Southpaw,1,0,0,1,170,170.18
+17,Sione,Latu,,"6' 0""",215 lbs.,--,,1,0,0,1,265,182.88
+18,Mark,Robinson,White Rhino,"6' 0""",265 lbs.,--,Orthodox,1,0,0,1,265,182.88
+19,Rulon,Gardner,,"6' 3""",265 lbs.,--,Orthodox,1,0,0,1,265,190.5
+20,Greg,Hardy,,"6' 5""",265 lbs.,"80.0""",Orthodox,1,0,0,1,265,195.58
+42,Cesar,Gracie,,"5' 10""",181 lbs.,--,Orthodox,0,1,0,1,181,177.8
+43,Jason,Thacker,,"5' 10""",185 lbs.,--,Orthodox,0,1,0,1,185,177.8
+44,Wes,Albritton,,"5' 10""",188 lbs.,--,Orthodox,0,1,0,1,188,177.8
+45,Ron,van Clief,The Black Dragon,"5' 10""",190 lbs.,--,Orthodox,0,1,0,1,190,177.8
+46,Asbel,Cancio,,"5' 10""",225 lbs.,--,,0,1,0,1,265,177.8
+47,Donnie,Chappell,,"5' 11""",178 lbs.,--,Southpaw,0,1,0,1,178,180.34
+48,Eldo Xavier,Dias,,"5' 11""",180 lbs.,--,,0,1,0,1,180,180.34
+49,Demetrius,Gioulacos,,"5' 11""",185 lbs.,--,,0,1,0,1,185,180.34
+50,Ernie,Verdicia,,"5' 11""",199 lbs.,--,Orthodox,0,1,0,1,199,180.34
+51,Han Ten,Yun,,"5' 11""",220 lbs.,--,,0,1,0,1,265,180.34
+52,Aaron,Trujillo,,"5' 5""",125 lbs.,--,,0,1,0,1,125,165.1
+53,Kazuhisa,Watanabe,,"5' 6""",139 lbs.,--,,0,1,0,1,139,167.64
+54,Lowell,Anderson,,"5' 6""",160 lbs.,--,Orthodox,0,1,0,1,160,167.64
+55,Aliev,Makhmud,,"5' 6""",195 lbs.,--,Southpaw,0,1,0,1,195,167.64
+56,Eldari,Kurtanidze,,"5' 6""",235 lbs.,--,Orthodox,0,1,0,1,265,167.64
+57,Andy,Anderson,The Hammer,"5' 6""",240 lbs.,--,,0,1,0,1,265,167.64
+58,Brooke,Mayo,The Bully,"5' 7""",125 lbs.,--,,0,1,0,1,125,170.18
+59,Jong Won,Kim,,"5' 7""",139 lbs.,--,Orthodox,0,1,0,1,139,170.18
+60,Yokthai,Sithoar,,"5' 7""",143 lbs.,--,,0,1,0,1,143,170.18
+61,Scott,Shaffer,,"5' 7""",145 lbs.,--,Orthodox,0,1,0,1,145,170.18
+62,Xue Do,Won,,"5' 7""",165 lbs.,--,,0,1,0,1,165,170.18
+63,Minoki,Ichihara,,"5' 7""",178 lbs.,--,Orthodox,0,1,0,1,178,170.18
+64,Greg,Stott,Ranger,"5' 7""",220 lbs.,--,Southpaw,0,1,0,1,265,170.18
+65,Chris,Drumm,,"5' 8""",145 lbs.,--,,0,1,0,1,145,172.72
+66,Raou,Raou,,"5' 8""",195 lbs.,--,Orthodox,0,1,0,1,195,172.72
+67,Alberta Cerra,Leon,,"5' 8""",238 lbs.,--,,0,1,0,1,265,172.72
+68,Tatsuya,Iwasaki,,"5' 9""",205 lbs.,--,Orthodox,0,1,0,1,205,175.26
+69,Roland,Payne,,"5' 9""",205 lbs.,--,Orthodox,0,1,0,1,205,175.26
+70,Sergey,Ignatov,,"5' 9""",210 lbs.,--,Orthodox,0,1,0,1,265,175.26
+71,James,Toney,Lights Out,"5' 9""",220 lbs.,--,Orthodox,0,1,0,1,265,175.26
+72,John,Campetella,,"5' 9""",235 lbs.,--,Orthodox,0,1,0,1,265,175.26
+73,Jason,Suttie,Nobunaga,"6' 0""",210 lbs.,--,Orthodox,0,1,0,1,265,182.88
+74,Melton,Bowen,The Punisher,"6' 0""",225 lbs.,--,Orthodox,0,1,0,1,265,182.88
+75,Chris,Condo,,"6' 0""",335 lbs.,--,Orthodox,0,1,0,1,300,182.88
+76,Teila,Tuli,,"6' 0""",430 lbs.,--,Orthodox,0,1,0,1,300,182.88
+77,Rubin,Williams,Mr. Hollywood,"6' 1""",185 lbs.,--,Orthodox,0,1,0,1,185,185.42
+78,Art,Jimmerson,,"6' 1""",196 lbs.,--,Orthodox,0,1,0,1,196,185.42
+79,Lloyd,Van Dams,,"6' 1""",240 lbs.,--,Southpaw,0,1,0,1,265,185.42
+80,Thomas,Ramirez,,"6' 1""",410 lbs.,--,Sideways,0,1,0,1,300,185.42
+81,Nathan,Jones,,"6' 11""",345 lbs.,--,Orthodox,0,1,0,1,300,210.82
+82,Raymond,Daniels,,"6' 2""",185 lbs.,--,Southpaw,0,1,0,1,185,187.96
+83,Robert,Lucarelli,,"6' 2""",245 lbs.,--,,0,1,0,1,265,187.96
+84,Francois,Botha,White Buffalo,"6' 2""",260 lbs.,--,Orthodox,0,1,0,1,265,187.96
+85,Lee Kwan,Bum,,"6' 2""",286 lbs.,--,Orthodox,0,1,0,1,300,187.96
+86,Errol,Zimmerman,The Bonecrusher,"6' 3""",185 lbs.,--,Orthodox,0,1,0,1,185,190.5
+87,Thaddeus,Luster,,"6' 3""",210 lbs.,--,,0,1,0,1,265,190.5
+88,Dmitri,Stepanov,,"6' 3""",217 lbs.,--,Orthodox,0,1,0,1,265,190.5
+89,Kyle,Sturgeon,,"6' 3""",225 lbs.,--,Switch,0,1,0,1,265,190.5
+90,Ryan,Parker,,"6' 3""",235 lbs.,--,Southpaw,0,1,0,1,265,190.5
+91,Matt,Skelton,,"6' 3""",265 lbs.,--,Orthodox,0,1,0,1,265,190.5
+92,Julian,Sanchez,,"6' 3""",300 lbs.,--,Orthodox,0,1,0,1,300,190.5
+93,Yuri,Vaulin,,"6' 4""",197 lbs.,--,Southpaw,0,1,0,1,197,193.04
+94,Scott,Fiedler,,"6' 4""",235 lbs.,--,Orthodox,0,1,0,1,265,193.04
+95,Jose,Canseco,,"6' 4""",240 lbs.,--,Orthodox,0,1,0,1,265,193.04
+104,Mason,Fowler,,"5' 11""",170 lbs.,--,,2,0,0,2,170,180.34
+105,Kerry,Vera,,"5' 7""",135 lbs.,--,Orthodox,2,0,0,2,135,170.18
+106,David,Blanco,,"5' 7""",145 lbs.,--,,2,0,0,2,145,170.18
+107,Alex,Hunter,,"5' 9""",226 lbs.,--,Orthodox,2,0,0,2,265,175.26
+108,Herschel,Walker,,"6' 1""",215 lbs.,--,Orthodox,2,0,0,2,265,185.42
+109,Kennedy,Nzechukwu,African Savage,"6' 5""",205 lbs.,"82.0""",Southpaw,2,0,0,2,205,195.58
+121,Paul,Herrera,The Bone Crusher,"5' 10""",185 lbs.,--,Orthodox,1,1,0,2,185,177.8
+122,Dwayne,Cason,,"5' 10""",212 lbs.,--,Orthodox,1,1,0,2,265,177.8
+123,Michael,McDonald,The Black Sniper,"5' 11""",205 lbs.,--,Orthodox,1,1,0,2,205,180.34
+124,Tai,Bowden,,"5' 11""",230 lbs.,--,,1,1,0,2,265,180.34
+125,Eddie,Ruiz,,"5' 7""",155 lbs.,--,Orthodox,1,1,0,2,155,170.18
+126,Bertrand,Amoussou,,"5' 8""",190 lbs.,--,Orthodox,1,1,0,2,190,172.72
+127,Joao Paulo,Faria,,"5' 9""",155 lbs.,--,,1,1,0,2,155,175.26
+128,Gilles,Arsene,,"5' 9""",190 lbs.,--,Southpaw,1,1,0,2,190,175.26
+129,Nick,Sanzo,,"5' 9""",190 lbs.,--,,1,1,0,2,190,175.26
+130,Mark,Schultz,,"5' 9""",200 lbs.,--,Orthodox,1,1,0,2,200,175.26
+131,Katsuaki,Furuki,,"6' 0""",168 lbs.,--,,1,1,0,2,168,182.88
+132,Fred,Ettish,,"6' 0""",180 lbs.,--,Southpaw,1,1,0,2,180,182.88
+133,Carlos,Zevallos,,"6' 0""",205 lbs.,--,Orthodox,1,1,0,2,205,182.88
+134,Scott,Baker,,"6' 0""",210 lbs.,--,,1,1,0,2,265,182.88
+135,Igor,Borisov,,"6' 0""",235 lbs.,--,Orthodox,1,1,0,2,265,182.88
+136,Ian,Murphy,,"6' 1""",185 lbs.,--,Orthodox,1,1,0,2,185,185.42
+137,Mike,Jackson,The Truth,"6' 2""",170 lbs.,--,Orthodox,1,1,0,2,170,187.96
+138,Ralph,Dillon,Rage,"6' 2""",205 lbs.,--,Orthodox,0,1,1,2,205,187.96
+139,Brian,Schwartz,,"6' 3""",170 lbs.,--,Orthodox,1,1,0,2,170,190.5
+140,Mike,Polchlopek,Mike Barton,"6' 4""",285 lbs.,--,Orthodox,1,1,0,2,300,193.04
+141,Jon,Hess,,"6' 7""",295 lbs.,--,,1,1,0,2,300,200.66
+146,Israel,Delgado,,"5' 10""",155 lbs.,--,,0,2,0,2,155,177.8
+147,Michiyoshi,Ohara,,"5' 10""",205 lbs.,--,Orthodox,0,2,0,2,205,177.8
+148,Yuki,Ishikawa,,"5' 11""",205 lbs.,--,Orthodox,0,2,0,2,205,180.34
+149,Steve,Judson,,"5' 11""",230 lbs.,--,Orthodox,0,2,0,2,265,180.34
+150,Charlene,Gellner,Princess,"5' 2""",125 lbs.,--,,0,2,0,2,125,157.48
+151,Dustin,Moore,,"5' 4""",125 lbs.,--,,0,2,0,2,125,162.56
+152,Townsend,Saunders,,"5' 5""",170 lbs.,--,Orthodox,0,2,0,2,170,165.1
+153,Elisha,Helsper,Knuckles,"5' 6""",135 lbs.,--,Orthodox,0,2,0,2,135,167.64
+154,Leiticia,Pestova,,"5' 6""",135 lbs.,--,Orthodox,0,2,0,2,135,167.64
+155,Rony,Sefo,,"5' 9""",225 lbs.,--,Orthodox,0,2,0,2,265,175.26
+156,Marko,Damiani,,"6' 0""",170 lbs.,--,,0,2,0,2,170,182.88
+157,Sean,Daugherty,,"6' 0""",175 lbs.,--,,0,2,0,2,175,182.88
+158,Rainy,Martinez,,"6' 0""",199 lbs.,--,Orthodox,0,2,0,2,199,182.88
+159,Dave,Martin,,"6' 0""",205 lbs.,--,,0,2,0,2,205,182.88
+160,Yuji,Nagata,,"6' 0""",225 lbs.,--,Orthodox,0,2,0,2,265,182.88
+161,Yoshiaki,Yatsu,,"6' 1""",165 lbs.,--,Orthodox,0,2,0,2,165,185.42
+162,CM,Punk,CM Punk,"6' 1""",170 lbs.,"73.0""",Orthodox,0,2,0,2,170,185.42
+163,Eddy,Millis,,"6' 1""",185 lbs.,--,,0,2,0,2,185,185.42
+164,Branko,Cikatic,,"6' 1""",215 lbs.,--,Orthodox,0,2,0,2,265,185.42
+165,Jim,Mullen,,"6' 1""",215 lbs.,--,Southpaw,0,2,0,2,265,185.42
+166,Alexandre,Dantas,Cafe,"6' 2""",238 lbs.,--,Orthodox,0,2,0,2,265,187.96
+167,Larry,Cureton,,"6' 2""",240 lbs.,--,Orthodox,0,2,0,2,265,187.96
+169,Christian,Uflacker,,"5' 11""",170 lbs.,--,,3,0,0,3,170,180.34
+170,Rhadi,Ferguson,,"5' 7""",205 lbs.,--,,3,0,0,3,205,170.18
+171,Steve,Hadsel,,"5' 8""",170 lbs.,--,,3,0,0,3,170,172.72
+172,Brandon,Hester,The Beast,"6' 1""",205 lbs.,--,,3,0,0,3,205,185.42
+173,Tebaris,Gordon,Boom,"6' 1""",235 lbs.,--,,3,0,0,3,265,185.42
+174,Juan,Adams,The Kraken,"6' 5""",265 lbs.,"81.0""",Orthodox,3,0,0,3,265,195.58
+186,Fabian,Gonzalez,,"5' 10""",135 lbs.,--,,2,1,0,3,135,177.8
+187,Nick,Gibbons,,"5' 10""",155 lbs.,--,,2,1,0,3,155,177.8
+188,Scott,Morris,,"5' 10""",210 lbs.,--,Orthodox,2,1,0,3,265,177.8
+189,Onassis,Parungao,,"5' 11""",200 lbs.,--,,2,1,0,3,200,180.34
+190,Reza,Nasri,,"5' 11""",205 lbs.,--,Orthodox,2,1,0,3,205,180.34
+191,Tiffany,Masters,Rainbow Renegade,"5' 3""",115 lbs.,"65.0""",Orthodox,2,1,0,3,115,160.02
+192,Iony,Razafiarison,,"5' 3""",145 lbs.,--,,2,1,0,3,145,160.02
+193,Miles,McDonald,,"5' 7""",115 lbs.,--,,2,1,0,3,115,170.18
+194,Todd,Lally,,"5' 7""",145 lbs.,--,Orthodox,2,1,0,3,145,170.18
+195,Ray,Routh,,"5' 8""",185 lbs.,--,Orthodox,2,1,0,3,185,172.72
+196,Kelly,Velasco,Killer,"5' 9""",135 lbs.,--,Orthodox,2,1,0,3,135,175.26
+197,Jesse,Jones,,"5' 9""",170 lbs.,--,,2,1,0,3,170,175.26
+198,David,Avellan,,"5' 9""",185 lbs.,--,Orthodox,2,1,0,3,185,175.26
+199,Chel,Erwin-Davis,The First Sun,"6' 0""",170 lbs.,--,,2,1,0,3,170,182.88
+200,Johnny,Rhodes,,"6' 0""",210 lbs.,--,Orthodox,2,1,0,3,265,182.88
+201,Steve,Nelmark,The Sandman,"6' 0""",240 lbs.,--,Orthodox,2,1,0,3,265,182.88
+202,Ray,Sefo,Sugarfoot,"6' 0""",240 lbs.,--,Orthodox,2,1,0,3,265,182.88
+203,Peggy,Morgan,The Daywalker,"6' 1""",135 lbs.,"70.0""",,2,1,0,3,135,185.42
+204,Steven,Graham,,"6' 1""",290 lbs.,--,Orthodox,2,1,0,3,300,185.42
+205,Cory,Peterson,LA Giant,"6' 11""",400 lbs.,--,Orthodox,2,1,0,3,300,210.82
+206,Karl,Reed,No Worries,"6' 3""",205 lbs.,"78.0""",Orthodox,2,1,0,3,205,190.5
+207,Sean,Gannon,The Cannon,"6' 3""",265 lbs.,--,Southpaw,2,1,0,3,265,190.5
+219,Tyra,Parker,,"5' 5""",115 lbs.,--,Orthodox,1,2,0,3,115,165.1
+220,Stephanie,Webber,,"5' 6""",135 lbs.,--,,1,2,0,3,135,167.64
+221,AJ,Siscoe,Let's Go,"5' 7""",135 lbs.,--,,1,2,0,3,135,170.18
+222,Masanori,Tonooka,,"5' 8""",185 lbs.,--,Orthodox,1,2,0,3,185,172.72
+223,Valeri,Ignatov,,"5' 9""",170 lbs.,--,Orthodox,1,2,0,3,170,175.26
+224,Andy,Waters,,"6' 0""",170 lbs.,--,,1,2,0,3,170,182.88
+225,Jules,Bruchez,,"6' 0""",205 lbs.,--,Southpaw,1,2,0,3,205,182.88
+226,Gokhan,Saki,The Rebel,"6' 0""",205 lbs.,"73.0""",Orthodox,1,2,0,3,205,182.88
+227,Mike,Bencic,Batman,"6' 0""",215 lbs.,--,Orthodox,1,2,0,3,265,182.88
+228,Gary,Frazier,,"6' 0""",245 lbs.,--,Orthodox,1,2,0,3,265,182.88
+229,Houston,Dorr,,"6' 1""",210 lbs.,--,Orthodox,1,2,0,3,265,185.42
+230,Bill,Duvall,,"6' 2""",185 lbs.,--,Southpaw,1,2,0,3,185,187.96
+231,Clay,Mitchell,,"6' 2""",185 lbs.,--,,1,2,0,3,185,187.96
+232,Tae Hyun,Lee,,"6' 6""",295 lbs.,--,Orthodox,1,2,0,3,300,198.12
+233,Koji,Kitao,,"6' 7""",350 lbs.,--,Southpaw,1,2,0,3,300,200.66
+234,Mitsuharu,Kitao,,"6' 7""",390 lbs.,--,,1,2,0,3,300,200.66
+235,Emmanuel,Yarborough,,"6' 8""",770 lbs.,--,Open Stance,1,2,0,3,300,203.2
+240,Rudyard,Moncayo,,"5' 10""",195 lbs.,--,Orthodox,0,3,0,3,195,177.8
+241,Jack,Morrison,,"5' 11""",205 lbs.,--,,0,3,0,3,205,180.34
+242,Javi,Alanis,,"5' 6""",135 lbs.,--,,0,3,0,3,135,167.64
+243,Lina,Kvokov,,"5' 9""",135 lbs.,--,Orthodox,0,3,0,3,135,175.26
+244,Craig,Oxley,,"5' 9""",155 lbs.,--,,0,3,0,3,155,175.26
+245,Dieusel,Berto,,"5' 9""",200 lbs.,--,,0,3,0,3,200,175.26
+246,Jin Oh,Kim,,"5' 9""",205 lbs.,--,Orthodox,0,3,0,3,205,175.26
+247,Ken,Kaneko,,"6' 0""",161 lbs.,--,Orthodox,0,3,0,3,161,182.88
+248,Tsuyoshi,Tamakairiki,,"6' 0""",220 lbs.,--,Orthodox,0,3,0,3,265,182.88
+249,Courtney,Turner,,"6' 2""",170 lbs.,--,,0,3,0,3,170,187.96
+250,Stefan,Leko,Blitz,"6' 2""",215 lbs.,--,Orthodox,0,3,0,3,265,187.96
+251,Tom,Tuggle,The Law,"6' 2""",250 lbs.,--,Orthodox,0,3,0,3,265,187.96
+254,Ben,Holscher,The Teacher,"5' 11""",155 lbs.,--,,4,0,0,4,155,180.34
+255,Austin,Vanderford,AK-47,"5' 11""",170 lbs.,"74.0""",Orthodox,4,0,0,4,170,180.34
+256,Maycee,Barber,The Future,"5' 5""",115 lbs.,"65.0""",Switch,4,0,0,4,115,165.1
+257,Kyler,Phillips,The Matrix,"5' 8""",135 lbs.,--,Orthodox,4,0,0,4,135,172.72
+258,Alexander,Munoz,,"5' 9""",155 lbs.,--,Switch,4,0,0,4,155,175.26
+259,Canaan,Kawaihae,,"6' 0""",145 lbs.,--,Southpaw,4,0,0,4,145,182.88
+260,Mitchell,Sipe,The Sniper,"6' 2""",245 lbs.,--,Orthodox,4,0,0,4,265,187.96
+267,Dominic,Clark,,"5' 10""",155 lbs.,--,,3,1,0,4,155,177.8
+268,Jeri,Sitzes,,"5' 5""",125 lbs.,--,,3,1,0,4,125,165.1
+269,Paul,Creighton,,"5' 6""",155 lbs.,--,Southpaw,3,1,0,4,155,167.64
+270,Veta,Arteaga,,"5' 7""",125 lbs.,--,,3,1,0,4,125,170.18
+271,Julia,Budd,,"5' 7""",145 lbs.,"67.0""",,3,1,0,4,145,170.18
+272,Andre,Pederneiras,,"5' 8""",155 lbs.,--,Orthodox,1,1,2,4,155,172.72
+273,Johnny,Sampaio,,"5' 8""",170 lbs.,--,Orthodox,3,1,0,4,170,172.72
+274,Jacob,Kilburn,The Killer,"5' 9""",145 lbs.,--,,3,1,0,4,145,175.26
+275,Dan,Barrera,The Fireman,"5' 9""",170 lbs.,--,Orthodox,3,1,0,4,170,175.26
+276,George,Zuniga,,"5' 9""",185 lbs.,--,,3,1,0,4,185,175.26
+277,Andy,Ologun,,"6' 0""",154 lbs.,--,Orthodox,3,1,0,4,154,182.88
+278,Dashawn,Boatwright,"Buck, the 400-pound Silverback","6' 0""",205 lbs.,--,Orthodox,3,1,0,4,205,182.88
+279,Bryce,Mejia,,"6' 1""",170 lbs.,--,,3,1,0,4,170,185.42
+280,Chris,Mierzwiak,,"6' 1""",185 lbs.,--,,3,1,0,4,185,185.42
+281,Ewerton,Teixeira,,"6' 1""",242 lbs.,--,,3,1,0,4,265,185.42
+282,Adam,Meredith,,"6' 2""",170 lbs.,--,,3,1,0,4,170,187.96
+283,Ralek,Gracie,,"6' 2""",210 lbs.,--,Orthodox,3,1,0,4,265,187.96
+284,Casey,Huffman,Hellbent,"6' 3""",185 lbs.,--,,3,1,0,4,185,190.5
+285,Elias,Urbina,,"6' 3""",185 lbs.,"77.0""",Southpaw,3,1,0,4,185,190.5
+286,Cory,Hendricks,,"6' 3""",205 lbs.,--,,3,1,0,4,205,190.5
+287,Hu,Yaozong,Bad Boy,"6' 3""",242 lbs.,"72.0""",Orthodox,3,1,0,4,265,190.5
+288,Scott,Graham,,"6' 4""",185 lbs.,--,Orthodox,3,1,0,4,185,193.04
+289,John Paul,Elias,,"6' 4""",205 lbs.,--,,3,1,0,4,205,193.04
+290,Rafael,Carino,,"6' 8""",245 lbs.,--,Orthodox,2,1,1,4,265,203.2
+299,Alex,Torres,Rolo,"5' 10""",145 lbs.,"70.0""",Orthodox,2,2,0,4,145,177.8
+300,John,Polakowski,Buckets of Blood,"5' 10""",155 lbs.,--,Orthodox,2,2,0,4,155,177.8
+301,Billy,Miles,The Kid,"5' 10""",170 lbs.,--,Orthodox,2,2,0,4,170,177.8
+302,Joe,Moreira,,"5' 11""",195 lbs.,--,Southpaw,2,2,0,4,195,180.34
+303,Keith,Hackney,The Giant Killer,"5' 11""",200 lbs.,--,Sideways,2,2,0,4,200,180.34
+304,Brandon,Sene,,"5' 11""",205 lbs.,--,,2,2,0,4,205,180.34
+306,John,Donaldson,J.T.,"5' 8""",145 lbs.,--,,2,2,0,4,145,172.72
+307,Alex,Dunworth,,"5' 8""",155 lbs.,--,,2,2,0,4,155,172.72
+308,Crosley,Gracie,,"5' 9""",190 lbs.,--,Orthodox,2,2,0,4,190,175.26
+309,An Ying,Wang,Smiley,"6' 0""",170 lbs.,--,Orthodox,2,2,0,4,170,182.88
+310,Chad,Sutton,,"6' 1""",185 lbs.,--,,2,2,0,4,185,185.42
+311,Ricardo,Barros,,"6' 1""",205 lbs.,--,,2,2,0,4,205,185.42
+312,Gerard,Gordeau,,"6' 5""",216 lbs.,--,Orthodox,2,2,0,4,265,195.58
+323,Takashi,Sugiura,,"5' 11""",225 lbs.,--,Southpaw,1,3,0,4,265,180.34
+324,Anthony,Taylor,Pretty Boy,"5' 7""",145 lbs.,--,,1,3,0,4,145,170.18
+325,Gilbert,Rael,,"5' 8""",155 lbs.,--,,1,3,0,4,155,172.72
+326,DeMarco,Villalona,,"5' 9""",185 lbs.,--,,1,3,0,4,185,175.26
+327,David,Hood,,"6' 0""",200 lbs.,--,,1,3,0,4,200,182.88
+328,Herman,Renting,,"6' 0""",215 lbs.,--,Switch,1,3,0,4,265,182.88
+329,Greg,Nagy,,"6' 1""",210 lbs.,--,Orthodox,1,3,0,4,265,185.42
+330,Marcus,Bossett,The Grasshopper,"6' 1""",215 lbs.,--,Orthodox,1,3,0,4,265,185.42
+331,Harold,Howard,,"6' 2""",240 lbs.,--,Orthodox,1,3,0,4,265,187.96
+332,David,Levicki,,"6' 5""",275 lbs.,--,,1,3,0,4,300,195.58
+335,Yuhi,Sano,,"5' 11""",243 lbs.,--,Orthodox,0,4,0,4,265,180.34
+336,Joe,Son,,"5' 4""",236 lbs.,--,Orthodox,0,4,0,4,265,162.56
+337,Bu-Kyung,Jung,,"5' 7""",154 lbs.,--,Orthodox,0,4,0,4,154,170.18
+338,Trent,Jenkins,,"6' 2""",185 lbs.,--,,0,4,0,4,185,187.96
+339,Tony,Halme,,"6' 3""",300 lbs.,--,Orthodox,0,4,0,4,300,190.5
+340,Osamu,Tachihikari,,"6' 5""",300 lbs.,--,Orthodox,0,4,0,4,300,195.58
+341,Nadia,Kassem,187,"5' 5""",115 lbs.,"66.0""",Southpaw,5,0,0,5,115,165.1
+342,Lauren,Mueller,Princess Tiger,"5' 5""",125 lbs.,"67.0""",Orthodox,5,0,0,5,125,165.1
+343,Antonina,Shevchenko,La Pantera,"5' 8""",125 lbs.,--,Southpaw,5,0,0,5,125,172.72
+344,Rafael,Fiziev,Ataman,"5' 8""",155 lbs.,--,,5,0,0,5,155,172.72
+345,Bob,Cook,Crazy,"5' 9""",170 lbs.,--,Orthodox,5,0,0,5,170,175.26
+346,Mike,Davis,Beast Boy,"6' 0""",145 lbs.,"72.0""",Orthodox,5,0,0,5,145,182.88
+347,Chase,Hooper,The Teenage Dream,"6' 1""",145 lbs.,--,Southpaw,5,0,0,5,145,185.42
+348,Roosevelt,Roberts,The Predator,"6' 2""",155 lbs.,"73.0""",Orthodox,5,0,0,5,155,187.96
+349,Alton,Cunningham,The Bo-Man,"6' 2""",185 lbs.,"77.0""",Orthodox,5,0,0,5,185,187.96
+350,Jorgen,Kruth,The Last Viking,"6' 2""",205 lbs.,--,,5,0,0,5,205,187.96
+351,Luis,Pena,Violent Bob Ross,"6' 3""",155 lbs.,"76.0""",Southpaw,5,0,0,5,155,190.5
+352,Bevon,Lewis,,"6' 3""",185 lbs.,"79.0""",Orthodox,5,0,0,5,185,190.5
+360,Willie,Parks,Slick,"5' 10""",185 lbs.,--,,4,1,0,5,185,177.8
+361,JJ,Okanovich,The Bosnian Bomber,"5' 11""",155 lbs.,--,,4,1,0,5,155,180.34
+362,Jamie,Colleen,,"5' 3""",115 lbs.,"65.0""",Orthodox,4,1,0,5,115,160.02
+363,JP,Buys,,"5' 6""",125 lbs.,"66.0""",Orthodox,4,1,0,5,125,167.64
+364,Royston,Wee,,"5' 7""",135 lbs.,"67.0""",Orthodox,4,1,0,5,135,170.18
+365,Luis,Gomez,Tiger Junior,"5' 7""",145 lbs.,"68.0""",Orthodox,4,1,0,5,145,170.18
+366,Roberta,Rovel,Crusher,"5' 8""",145 lbs.,--,,4,1,0,5,145,172.72
+367,James,Gray,The Phenom,"5' 9""",135 lbs.,--,Orthodox,4,1,0,5,135,175.26
+368,Rick,Davis,The Flying Squirrel,"5' 9""",155 lbs.,--,Orthodox,3,1,1,5,155,175.26
+369,Richie,Smullen,,"5' 9""",155 lbs.,"68.0""",Orthodox,3,1,1,5,155,175.26
+370,Jimmy,Quinlan,Crash,"6' 0""",185 lbs.,"72.0""",Orthodox,3,1,1,5,185,182.88
+371,Joao,Pierini,,"6' 1""",155 lbs.,--,Switch,4,1,0,5,155,185.42
+372,Michael,Cora,Kookie Monster,"6' 1""",170 lbs.,"77.0""",Southpaw,4,1,0,5,170,185.42
+373,Phil,Hawes,Megatron,"6' 1""",185 lbs.,"70.0""",Orthodox,4,1,0,5,185,185.42
+374,Sokun,Koh,,"6' 1""",205 lbs.,--,,4,1,0,5,205,185.42
+375,Kevin,Engel,The Hitman,"6' 2""",170 lbs.,--,,4,1,0,5,170,187.96
+376,Mickey,Gall,,"6' 2""",170 lbs.,"74.0""",Switch,4,1,0,5,170,187.96
+377,Sam,Greco,,"6' 2""",205 lbs.,--,Orthodox,3,1,1,5,205,187.96
+378,Everett,Sims,Sexual Chocolate,"6' 5""",260 lbs.,"77.0""",Southpaw,4,1,0,5,265,195.58
+379,Austen,Lane,,"6' 6""",245 lbs.,"80.0""",Orthodox,4,1,0,5,265,198.12
+388,Rico,Altamirano,,"5' 10""",170 lbs.,--,,3,2,0,5,170,177.8
+389,Royce,Alger,,"5' 10""",199 lbs.,--,Orthodox,3,2,0,5,199,177.8
+390,Anna,Elmose,Panda,"5' 3""",115 lbs.,"65.0""",Orthodox,3,2,0,5,115,160.02
+391,Fredy,Serrano,El Profe,"5' 3""",125 lbs.,"65.0""",Orthodox,3,2,0,5,125,160.02
+392,Emily,Whitmire,Spitfire,"5' 5""",115 lbs.,"63.0""",,3,2,0,5,115,165.1
+393,Shana,Dobson,Danger,"5' 6""",125 lbs.,"69.0""",,3,2,0,5,125,167.64
+394,Vernon,Ramos,,"5' 6""",170 lbs.,"72.0""",Orthodox,3,2,0,5,170,167.64
+395,Kelly,Faszholz,,"5' 8""",135 lbs.,"67.0""",Orthodox,3,2,0,5,135,172.72
+396,Eric,Castile,,"5' 8""",145 lbs.,--,,3,2,0,5,145,172.72
+397,Rocky,Lee,,"5' 9""",145 lbs.,"68.0""",Orthodox,3,2,0,5,145,175.26
+398,Jose,Palacios,,"5' 9""",145 lbs.,--,Orthodox,3,2,0,5,145,175.26
+399,Troy,Mandaloniz,Rude Boy,"5' 9""",170 lbs.,--,Orthodox,3,2,0,5,170,175.26
+400,Derek,Getzel,The Pretzel,"6' 0""",155 lbs.,--,,3,2,0,5,155,182.88
+401,Guilherme,Vasconcelos,Bomba,"6' 0""",185 lbs.,"74.0""",Orthodox,3,2,0,5,185,182.88
+402,Fabio,Gurgel,,"6' 0""",205 lbs.,--,Orthodox,3,2,0,5,205,182.88
+403,Jason,Glaza,,"6' 0""",230 lbs.,--,,3,2,0,5,265,182.88
+404,Frederick,Brown,,"6' 0""",235 lbs.,--,,3,2,0,5,265,182.88
+405,Keigo,Kunihara,,"6' 0""",235 lbs.,--,Orthodox,3,2,0,5,265,182.88
+406,Siala,Siliga,Mighty Mo,"6' 1""",290 lbs.,--,Orthodox,3,2,0,5,300,185.42
+407,Jerome,LeBanner,,"6' 3""",265 lbs.,--,Southpaw,3,2,0,5,265,190.5
+408,Jesse,Fujarczyk,The Ronin,"6' 4""",225 lbs.,--,Southpaw,3,2,0,5,265,193.04
+416,Frank,Megallon,,"5' 10""",185 lbs.,--,Southpaw,2,3,0,5,185,177.8
+417,Steve,Jennum,,"5' 10""",215 lbs.,--,Orthodox,2,3,0,5,265,177.8
+418,Joey,Gilbert,,"5' 11""",155 lbs.,--,Orthodox,2,3,0,5,155,180.34
+419,Alfonso,Alcarez,,"5' 3""",145 lbs.,--,,1,3,1,5,145,160.02
+420,Matt,Ramirez,The Machine,"5' 5""",125 lbs.,--,,2,3,0,5,125,165.1
+421,Maria,Rios,,"5' 5""",125 lbs.,--,,2,3,0,5,125,165.1
+422,Hussain,Rasouli,,"5' 6""",135 lbs.,--,,2,3,0,5,135,167.64
+423,David,Rasouli,,"5' 7""",155 lbs.,--,,2,3,0,5,155,170.18
+424,Eugenio,Tadeu,,"5' 8""",160 lbs.,--,Orthodox,2,3,0,5,160,172.72
+425,Ivan,Cole,JP,"5' 9""",135 lbs.,--,,2,3,0,5,135,175.26
+426,Brady,Fink,,"6' 0""",183 lbs.,--,Orthodox,2,3,0,5,183,182.88
+427,Hong Man,Choi,Techno Goliath,"7' 2""",330 lbs.,--,Orthodox,2,3,0,5,300,218.44
+431,Mike,Altman,,"5' 10""",185 lbs.,--,Orthodox,1,4,0,5,185,177.8
+432,Steve,White,,"5' 11""",175 lbs.,--,,1,4,0,5,175,180.34
+433,Sarah,Payant,Soulja,"5' 4""",115 lbs.,--,,1,4,0,5,115,162.56
+434,Rich,Bouphanouvong,,"5' 7""",170 lbs.,--,,1,4,0,5,170,170.18
+435,Josh,Stuart,,"5' 9""",160 lbs.,--,,1,4,0,5,160,175.26
+436,Brandon,Michaels,,"5' 9""",185 lbs.,--,,1,4,0,5,185,175.26
+437,Tomohiko,Hashimoto,,"6' 0""",250 lbs.,--,Orthodox,1,4,0,5,265,182.88
+438,Todd,Butler,,"6' 1""",200 lbs.,--,Southpaw,1,4,0,5,200,185.42
+439,Carlton,Jones,,"6' 1""",225 lbs.,--,Orthodox,1,4,0,5,265,185.42
+440,John,Matua,,"6' 2""",400 lbs.,--,Orthodox,1,4,0,5,300,187.96
+441,Yoshihiro,Takayama,,"6' 5""",280 lbs.,--,Orthodox,1,4,0,5,300,195.58
+442,Gerry,Harris,,"6' 8""",270 lbs.,--,Orthodox,1,4,0,5,300,203.2
+443,Keith,Mielke,,"5' 8""",185 lbs.,--,,0,5,0,5,185,172.72
+444,Yosuke,Nishijima,,"5' 9""",205 lbs.,--,Orthodox,0,5,0,5,205,175.26
+447,Montel,Jackson,Quik,"5' 10""",135 lbs.,"75.0""",Southpaw,6,0,0,6,135,177.8
+448,Talita,Nogueira,Treta,"5' 10""",145 lbs.,--,,6,0,0,6,145,177.8
+449,Ilima,Macfarlane,,"5' 4""",125 lbs.,--,,6,0,0,6,125,162.56
+450,Ronaldo,Candido,Pacman,"5' 6""",125 lbs.,--,Southpaw,6,0,0,6,125,167.64
+451,Aspen,Ladd,,"5' 6""",135 lbs.,"66.0""",Orthodox,6,0,0,6,135,167.64
+452,Carlos,Candelario,The Cannon,"5' 8""",125 lbs.,"67.0""",Southpaw,6,0,0,6,125,172.72
+453,Cheyden,Leialoha,Steadfast,"5' 8""",135 lbs.,"73.0""",Orthodox,6,0,0,6,135,172.72
+454,Neiman,Gracie,,"6' 0""",170 lbs.,--,,6,0,0,6,170,182.88
+455,Adam,Khaliev,,"6' 0""",170 lbs.,--,Orthodox,6,0,0,6,170,182.88
+456,Anthony,Hernandez,Fluffy,"6' 0""",185 lbs.,"75.0""",Orthodox,6,0,0,6,185,182.88
+457,Alonzo,Menifield,,"6' 0""",205 lbs.,"76.0""",Orthodox,6,0,0,6,205,182.88
+458,Edmen,Shahbazyan,The Golden Boy,"6' 2""",185 lbs.,--,Orthodox,6,0,0,6,185,187.96
+459,Chibwikem,Onyenegecha-Palmer,,"6' 3""",185 lbs.,"76.0""",Orthodox,6,0,0,6,185,190.5
+460,Robert,Drysdale,,"6' 3""",205 lbs.,"78.0""",Orthodox,6,0,0,6,205,190.5
+461,Chad,Corvin,The Brave Warrior,"6' 5""",255 lbs.,--,,6,0,0,6,265,195.58
+469,Martin,Day,The Spartan,"5' 10""",125 lbs.,"71.0""",Orthodox,5,1,0,6,125,177.8
+470,Nick,Pica,The Silverback,"5' 10""",185 lbs.,--,,5,1,0,6,185,177.8
+471,Dave,Galera,Scarecrow,"5' 11""",135 lbs.,--,Orthodox,5,1,0,6,135,180.34
+472,Sako,Chivitchian,,"5' 11""",155 lbs.,--,,5,1,0,6,155,180.34
+473,Chris,Sanford,,"5' 11""",185 lbs.,--,Orthodox,5,1,0,6,185,180.34
+474,Satoshi,Ishii,,"5' 11""",240 lbs.,--,Orthodox,4,1,1,6,265,180.34
+475,Tina,Lahdemaki,Jelly Bean,"5' 2""",115 lbs.,"62.0""",Orthodox,5,1,0,6,115,157.48
+476,Bentley,Syler,Dr. Bolivia,"5' 4""",125 lbs.,"68.0""",Orthodox,5,1,0,6,125,162.56
+477,Travis,Calanoc,The Dark Knight,"5' 8""",145 lbs.,--,Orthodox,5,1,0,6,145,172.72
+478,Te,Edwards,Tango,"5' 8""",155 lbs.,"72.0""",Orthodox,5,1,0,6,155,172.72
+479,Rene,Kronvold,,"5' 8""",170 lbs.,--,Orthodox,5,1,0,6,170,172.72
+480,Boston,Salmon,Boom Boom,"5' 9""",135 lbs.,"69.0""",Southpaw,5,1,0,6,135,175.26
+481,James,Reese,JP,"5' 9""",155 lbs.,--,,5,1,0,6,155,175.26
+482,Giga,Chikadze,,"6' 0""",145 lbs.,"72.0""",Orthodox,5,1,0,6,145,182.88
+483,Eric,Wray,,"6' 0""",170 lbs.,--,Orthodox,5,1,0,6,170,182.88
+484,Keith,Berish,Sha Bang Bang,"6' 0""",205 lbs.,"73.0""",Orthodox,5,1,0,6,205,182.88
+485,Dennis,Bryant,The Beard,"6' 1""",205 lbs.,--,,5,1,0,6,205,185.42
+486,Anton,Berzin,The Body Snatcher,"6' 2""",205 lbs.,--,Orthodox,5,1,0,6,205,187.96
+487,Mike,King,,"6' 3""",185 lbs.,"75.0""",,5,1,0,6,185,190.5
+488,Rolles,Gracie,,"6' 4""",242 lbs.,--,Orthodox,5,1,0,6,265,193.04
+489,Shawn,Teed,,"6' 5""",265 lbs.,"79.0""",Orthodox,5,1,0,6,265,195.58
+498,Ryan,Keenan,,"5' 10""",170 lbs.,--,,4,2,0,6,170,177.8
+499,Chris,Herrera,The Crusher,"5' 10""",185 lbs.,--,,3,2,1,6,185,177.8
+500,Kevin,Jackson,,"5' 10""",199 lbs.,--,Switch,4,2,0,6,199,177.8
+501,Brad,Mitchell,,"5' 11""",145 lbs.,--,,4,2,0,6,145,180.34
+502,Jeremy,Malaterre,,"5' 11""",155 lbs.,--,,4,2,0,6,155,180.34
+503,Hector,Aldana,El Charro,"5' 11""",170 lbs.,"72.0""",Orthodox,4,2,0,6,170,180.34
+504,Igor,Gracie,,"5' 11""",170 lbs.,--,,4,2,0,6,170,180.34
+505,Sam,Spengler,The Ram,"5' 11""",185 lbs.,--,Orthodox,4,2,0,6,185,180.34
+506,Tim,Catalfo,Obake,"5' 11""",235 lbs.,--,Orthodox,4,2,0,6,265,180.34
+507,Scott,Ferrozzo,The Pitbull,"5' 11""",323 lbs.,--,Orthodox,4,2,0,6,300,180.34
+508,Anthony,Do,,"5' 4""",125 lbs.,--,,4,2,0,6,125,162.56
+509,Sijara,Eubanks,Sarj,"5' 4""",125 lbs.,"67.0""",,4,2,0,6,125,162.56
+510,Roldan,Sangcha-an,The Executioner,"5' 4""",125 lbs.,"65.0""",Orthodox,4,2,0,6,125,162.56
+511,Yusaku,Nakamura,,"5' 5""",145 lbs.,--,,3,2,1,6,145,165.1
+512,Bruno,Korea,Korea,"5' 6""",135 lbs.,"65.0""",,4,2,0,6,135,167.64
+513,Sarah,D'alelio,The Monster,"5' 7""",145 lbs.,--,,4,2,0,6,145,170.18
+514,Shana,Olsen,Rock Solid,"5' 7""",145 lbs.,--,,4,2,0,6,145,170.18
+515,TJ,Hepburn,The Carnivore,"5' 7""",155 lbs.,--,,4,2,0,6,155,170.18
+516,Louis,Jauregui,,"5' 7""",170 lbs.,--,,4,2,0,6,170,170.18
+517,Kelly,Dullanty,Psycho,"5' 8""",155 lbs.,--,Orthodox,4,2,0,6,155,172.72
+519,Waylon,Kennell,,"6' 0""",185 lbs.,--,,4,2,0,6,185,182.88
+520,Adam,Cella,El Naturel,"6' 2""",170 lbs.,"78.0""",,4,2,0,6,170,187.96
+521,Brian,Houston,B-Hue,"6' 2""",185 lbs.,"78.0""",Orthodox,4,2,0,6,185,187.96
+522,Jeff,Newton,,"6' 2""",205 lbs.,--,Sideways,4,2,0,6,205,187.96
+523,Scott,Carson,,"6' 2""",215 lbs.,--,,4,2,0,6,265,187.96
+524,Rex,Holman,Big Dog,"6' 3""",205 lbs.,--,Southpaw,4,2,0,6,205,190.5
+525,Chris,de la Rocha,,"6' 3""",250 lbs.,"80.0""",Orthodox,4,2,0,6,265,190.5
+526,Sean,O'Haire,,"6' 5""",270 lbs.,--,Orthodox,4,2,0,6,300,195.58
+527,Don'Tale,Mayes,King Kong,"6' 6""",260 lbs.,"82.0""",Orthodox,4,2,0,6,265,198.12
+528,Marcus,Jones,The Darkness,"6' 6""",265 lbs.,--,Orthodox,4,2,0,6,265,198.12
+536,Horacio,Gutierrez,The Punisher,"5' 10""",145 lbs.,"69.0""",,3,3,0,6,145,177.8
+537,Merritt,Warren,,"5' 10""",155 lbs.,--,Southpaw,3,3,0,6,155,177.8
+538,Marcelo,Aguiar,,"5' 10""",170 lbs.,--,Orthodox,2,3,1,6,170,177.8
+539,Matt,Arroyo,No Regard,"5' 10""",170 lbs.,"72.0""",Orthodox,3,3,0,6,170,177.8
+540,Bubba,Pugh,,"5' 10""",185 lbs.,--,,3,3,0,6,185,177.8
+541,Jessamyn,Duke,The Gun,"5' 11""",135 lbs.,"73.0""",,3,3,0,6,135,180.34
+542,Marius,Enache,,"5' 11""",155 lbs.,--,,3,3,0,6,155,180.34
+543,Cyrillo,Padilha,,"5' 11""",155 lbs.,--,,3,3,0,6,155,180.34
+544,Charlie,Ward,Relentless,"5' 11""",170 lbs.,"73.0""",Orthodox,3,3,0,6,170,180.34
+545,Emily,Peters Kagan,,"5' 3""",115 lbs.,"66.0""",,3,3,0,6,115,160.02
+546,Karine,Gevorgyan,The Princess,"5' 4""",125 lbs.,"63.0""",,3,3,0,6,125,162.56
+547,Ian,Butler,,"5' 8""",155 lbs.,--,,3,3,0,6,155,172.72
+548,Garrett,Mueller,,"5' 9""",135 lbs.,--,,3,3,0,6,135,175.26
+549,Wagner,Silva,Wagnao,"6' 0""",170 lbs.,"71.0""",Orthodox,3,3,0,6,170,182.88
+550,Jorge,Interiano,,"6' 1""",205 lbs.,--,,3,3,0,6,205,185.42
+551,Erick,Wanderlei,,"6' 1""",205 lbs.,--,Orthodox,3,3,0,6,205,185.42
+552,Buck,Meredith,,"6' 2""",185 lbs.,--,,3,3,0,6,185,187.96
+555,Albert,Cheng,,"5' 11""",170 lbs.,--,Orthodox,2,4,0,6,170,180.34
+556,Bryanna,Fissori,,"5' 4""",145 lbs.,--,,2,4,0,6,145,162.56
+557,Melchor,Manibusan,Barracuda,"5' 5""",154 lbs.,--,Southpaw,2,4,0,6,154,165.1
+558,Marvin,Maldonado,The Bulldog,"5' 6""",135 lbs.,--,,2,4,0,6,135,167.64
+559,Pete,Rogers Jr.,The Heat,"6' 0""",145 lbs.,--,,2,4,0,6,145,182.88
+560,Blake,Bowman,,"6' 2""",170 lbs.,--,,2,4,0,6,170,187.96
+561,Tadao,Yasuda,,"6' 4""",310 lbs.,--,Orthodox,2,4,0,6,300,193.04
+563,Orlando,Wiet,The Gladiator,"5' 10""",170 lbs.,--,Southpaw,1,5,0,6,170,177.8
+564,Yoji,Anjo,Mr. 200%,"5' 11""",205 lbs.,--,Orthodox,0,5,1,6,205,180.34
+565,Andre,Walker,,"5' 11""",205 lbs.,--,Southpaw,1,5,0,6,205,180.34
+566,Joey,Gomez,,"5' 10""",155 lbs.,"71.0""",Orthodox,7,0,0,7,155,177.8
+567,Joe,Lowry,,"5' 10""",155 lbs.,--,,7,0,0,7,155,177.8
+568,Michael,Graves,,"5' 10""",170 lbs.,"71.0""",,6,0,1,7,170,177.8
+569,Chris,Holdsworth,Holds it Down,"5' 11""",135 lbs.,"71.0""",,7,0,0,7,135,180.34
+570,Azamat,Murzakanov,The Professional,"5' 11""",205 lbs.,--,,7,0,0,7,205,180.34
+571,Alexandra,Albu,Stitch,"5' 2""",115 lbs.,"63.0""",Orthodox,7,0,0,7,115,157.48
+572,Mackenzie,Dern,,"5' 4""",115 lbs.,"63.0""",Orthodox,7,0,0,7,115,162.56
+573,Tatiana,Suarez,,"5' 5""",115 lbs.,"67.0""",,7,0,0,7,115,165.1
+574,Gabriel,Carrasco,,"5' 6""",135 lbs.,--,,7,0,0,7,135,167.64
+575,Kyle,Stewart,Gunz Up,"6' 0""",170 lbs.,"76.0""",Orthodox,7,0,0,7,170,182.88
+576,Anthony,Adams,Sugafoot,"6' 0""",185 lbs.,"77.0""",Orthodox,7,0,0,7,185,182.88
+577,Jim,Crute,The Brute,"6' 2""",205 lbs.,--,Orthodox,7,0,0,7,205,187.96
+580,Ryan,Hall,The Wizard,"5' 10""",145 lbs.,"71.0""",,6,1,0,7,145,177.8
+581,Raul,Castillo,,"5' 11""",185 lbs.,--,Orthodox,6,1,0,7,185,180.34
+582,AJ,Matthews,,"5' 11""",185 lbs.,--,,6,1,0,7,185,180.34
+583,Cynthia,Calvillo,,"5' 4""",115 lbs.,"64.0""",Orthodox,6,1,0,7,115,162.56
+584,Syuri,Kondo,,"5' 4""",115 lbs.,"66.0""",Orthodox,6,1,0,7,115,162.56
+585,Amanda,Ribas,,"5' 4""",115 lbs.,--,,6,1,0,7,115,162.56
+586,Elias,Garcia,,"5' 5""",125 lbs.,"67.0""",Southpaw,6,1,0,7,125,165.1
+587,Adin,Duenas,,"5' 6""",145 lbs.,--,,6,1,0,7,145,167.64
+588,Anthony,Avila,,"5' 7""",145 lbs.,--,,6,1,0,7,145,170.18
+589,Jaime,Alvarez,,"5' 8""",125 lbs.,"69.0""",Orthodox,6,1,0,7,125,172.72
+590,Yazan,Hajeh,Yazzle Dazzle,"5' 9""",145 lbs.,"73.0""",Orthodox,6,1,0,7,145,175.26
+591,Thanh,Le,,"5' 9""",145 lbs.,"74.0""",Orthodox,6,1,0,7,145,175.26
+592,Thomas,Longacre,,"5' 9""",145 lbs.,--,Orthodox,6,1,0,7,145,175.26
+593,Sodiq,Yusuff,Super,"5' 9""",145 lbs.,--,Orthodox,6,1,0,7,145,175.26
+594,Matt,Frevola,The Steamrolla,"5' 9""",155 lbs.,"71.0""",Orthodox,6,1,0,7,155,175.26
+595,Ralph,Gracie,,"5' 9""",183 lbs.,--,Orthodox,6,1,0,7,183,175.26
+596,Mike,Malott,The Main Attraction,"6' 0""",145 lbs.,--,,5,1,1,7,145,182.88
+597,Steve,Byrnes,The Sergeant,"6' 0""",170 lbs.,--,Orthodox,6,1,0,7,170,182.88
+598,Jesse,Finney,,"6' 0""",170 lbs.,--,,6,1,0,7,170,182.88
+599,Joe,Merritt,Joey Slash,"6' 0""",170 lbs.,"73.0""",Orthodox,6,1,0,7,170,182.88
+600,Karl,Roberson,Baby K,"6' 1""",185 lbs.,"74.0""",Southpaw,6,1,0,7,185,185.42
+601,Andreas,Spang,Sweet Swede,"6' 1""",185 lbs.,--,,6,1,0,7,185,185.42
+602,Igor,Zinoviev,Houdini,"6' 1""",199 lbs.,--,Orthodox,4,1,2,7,199,185.42
+603,Justin,Sumter,The Fort,"6' 2""",185 lbs.,"80.0""",Southpaw,6,1,0,7,185,187.96
+604,Marcelo,Golm,,"6' 3""",249 lbs.,"75.0""",Orthodox,6,1,0,7,265,190.5
+610,Jared,Chaffee,,"5' 10""",155 lbs.,--,,5,2,0,7,155,177.8
+611,Sean,Holden,,"5' 10""",170 lbs.,--,,5,2,0,7,170,177.8
