@@ -76,11 +76,12 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 *  g++ compiler
   ```sh
   $ sudo apt install build-essential
   ```
+
+##Using the Program:
 
 ### Installation
 
@@ -92,7 +93,9 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    make
    ```
+### Load the CSV Files
 
+Two sample CSV files are provided to create the database.  Additional webscraper files can also be downloaded <a href=https://www.dropbox.com/s/o88087phvf9veow/fightmetric.csv?dl=0> from this website</a>, but will require the reordering of columns and removal of all columns after column 10.  This can be done using Microsoft excel.
 
 
 <!-- USAGE EXAMPLES -->
