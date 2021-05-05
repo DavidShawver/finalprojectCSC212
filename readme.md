@@ -158,13 +158,13 @@ Project Link: [https://github.com/davidshawver/finalprojectCSC212](https://githu
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/davidshawver/finalprojectCSC212/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/davidshawver/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/davidshawver/repo/network/members
+[forks-url]: https://github.com/davidshawver/finalprojectCSC212/network/members
 [stars-shield]: https://img.shields.io/github/stars/davidshawver/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/davidshawver/repo/stargazers
+[stars-url]: https://github.com/davidshawver/finalprojectCSC212/stargazers
 [issues-shield]: https://img.shields.io/github/issues/davidshawver/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/davidshawver/repo/issues
+[issues-url]: https://github.com/davidshawver/finalprojectCSC212/issues
 [license-shield]: https://img.shields.io/github/license/davidshawver/repo.svg?style=for-the-badge
-[license-url]: https://github.com/davidshawver/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/davidshawver/finalprojectCSC212/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/davidshawver
 
