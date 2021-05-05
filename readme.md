@@ -55,7 +55,7 @@ May 6, 2021<br />
 <!-- USAGE EXAMPLES -->
 ## Purpose
 
-This program allows a fan or other interested person to load basic data characteristics of the various MMA Fighters into a database for easy manipulation and retrieval of records.  The database could ultimately be used with other code and further development to generate an MMA Fighter info API that could serve as a rolodex supplying information kind of like a baseball card for use by web site or game creators.  The database is simple, but could easily be expanded to include additional data categories.  The basic name, physical characteristic, and fighter record information is all that has been currently programmed in due to accessibility and availability of data, but additional info such as age, knockout, fighting style, and takedown statistics could be added as a future feature of the program.
+This program allows a fan or other interested person to load basic data characteristics of the various MMA Fighters into a database for easy manipulation and retrieval of records.  The database could ultimately be used with other code and further development to generate an MMA Fighter info API that could serve as a rolodex supplying information kind of like a baseball card for use by web site or game creators.  The database is simple, but could easily be expanded to include additional data categories.  The basic name, physical characteristic, and fighter record information is all that has been currently programmed in due to accessibility and availability of data, but additional info such as age, knockout statistics, fighting style, and takedown statistics could be added as a future feature of the program.
 
 <!-- GETTING STARTED -->
 # Getting Started
