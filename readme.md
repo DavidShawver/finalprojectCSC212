@@ -19,7 +19,7 @@ May 6, 2021<br />
   <a href="https://github.com/davidshawver/finalprojectCSC212">
   </a>
 
-  <h3 align="left">Simple Database for Basic MMA Fighter Info</h3>
+  <h2 align="left">Simple Database for Basic MMA Fighter Info</h2>
 
   <p align="left">
     A simple database that allows you to load, create, and modify records of basic MMA fighter data such as name, nickname, height, weight, and reach
