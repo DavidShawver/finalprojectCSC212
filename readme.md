@@ -1,6 +1,18 @@
-<img src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" align="center" width="875" height="420" alt="UFC Logo">
+<style>
+.marginauto {
+    margin: 10px auto 20px;
+    display: block;
+}
+</style>
+<div>
+<img class="marginauto" src="https://github.com/DavidShawver/finalprojectCSC212/blob/master/download.jpg" width="875" height="420" alt="UFC Logo">
+</div>
+
 <br />
 <p align="center">
+
+
+  
   <a href="https://github.com/davidshawver/finalprojectCSC212">
   </a>
 
