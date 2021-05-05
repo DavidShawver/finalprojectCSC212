@@ -114,11 +114,6 @@ The data are from a database which includes every UFC fighter since the league w
 
 <p>The rest of the program is self-explanatory based on the menu prompts.  There is a main menu that allows you to read in fighter data, (provided it is a CSV with the proper columns), search for a fighter record (either exact search or contains search), modify a fighter record, delete a fighter record, sort the records, display all of the records or save the records to a file, which can be subsequently loaded back into the program at a later time.  This allows you to save your work if you have done any modification of the records from the csv file.</p>
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/davidshawver/finalprojectCSC212/issues) for a list of proposed features (and known issues).
-
 
 <!-- CONTACT -->
 ## Contact
