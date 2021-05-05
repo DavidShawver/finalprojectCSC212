@@ -127,19 +127,6 @@ Your Name - [@davidshawver1875](https://twitter.com/davidshawver1875) - david.a.
 
 Project Link: [https://github.com/davidshawver/finalprojectCSC212](https://github.com/davidshawver/finalprojectCSC212)
 
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
