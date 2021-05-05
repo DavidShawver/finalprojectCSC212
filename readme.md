@@ -31,6 +31,8 @@ May 6, 2021<br />
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
+      <a href="#Purpose">Purpose</a>
+    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
@@ -39,11 +41,7 @@ May 6, 2021<br />
       </ul>
     </li>
     <li><a href="#purpose">Purpose</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
