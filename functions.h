@@ -3,8 +3,8 @@
  */
 
 #ifndef functions_h
-#define functions_h
-
+#define functions_h.
+#include <sys/stat.h>
 #include <iostream>
 #include <string>
 #include <cctype>
@@ -34,7 +34,12 @@ void saveAs(ostream& out, Node* node);                                      //wr
 vector<MMAFighters> BSTreeVector(Node*, vector<MMAFighters>&);                    //transfer bstree to vector
 AvlTree* sortedTree(int, vector<MMAFighters>&);                                 //transfer vector to bstree
 string make_substring(string MMAData);                                          //string processing for loading saved files
-std::string trim(const std::string& line);                                      //string processing for loading saved files
+std::string trim(const std::string& line);     
+bool IsPathExist(const std::string &s)
+{
+  struct stat buffer;
+  return (stat (s.c_str(), &buffer) == 0);
+}                                 //string processing for loading saved files
 
                                                        // A utility function to get maximum of two integers
 
@@ -48,7 +53,7 @@ std::string trim(const std::string& line);                                      
 //                          RETURNS:    Current database with new records
 //****************************************************************************************************
 void readFromFile(AvlTree* &tree)
-{
+{   tree->setTreatAsInt(true);
     int readType;
     cout<< "Would you like to read a \'fightmetric\' CSV file or a file saved from this database?" << endl << endl;
     cout<< "1.  FightMetric CSV File" << endl;
@@ -97,8 +102,6 @@ void readFromFile(AvlTree* &tree)
         //display sorted records
         displayRecords(tree);
     }
-    
-    
 }
 
 
@@ -120,58 +123,66 @@ void readFightMetricFile(string file, AvlTree* &tree){
     }
     else
     {
+    //create a fighter to hold the data and a string to hold read-in text
 
-    MMAFighters mma;
     string csvLine;
 
-while(std::getline(inFile, csvLine))
-    {      
+    while(std::getline(inFile, csvLine))
+    {   
+            MMAFighters* mma = new MMAFighters;   
+
             istringstream csvStream(csvLine);
             string csvElement;
-            // read every element from the line that is seperated by commas
+
+           // read every element from the line that is seperated by commas
             // and put it into the vector or strings
             int i = 0; 
         while(std::getline(csvStream, csvElement, ','))
             { 
             if (i == 0){
-                mma.setFighterNumber(csvElement);
+                mma->setFighterNumber(csvElement);
             }
              if (i == 1){
-                 mma.setFirstName(csvElement);
+                mma->setFirstName(csvElement);
              }
              if (i == 2){
-                 mma.setLastName(csvElement);
+                mma->setLastName(csvElement);
              }
              if (i == 3){
-                 mma.setNickName(csvElement);
+                 mma->setNickName(csvElement);
              }
              if (i == 4){
-                 mma.setHeight(csvElement);
+                 mma->setHeight(csvElement);
+                 
              }
              if (i == 5){
-                 mma.setWeight(csvElement);
+                 mma->setWeight(csvElement);
+                 
              }
              if (i == 6){
-                mma.setReach(csvElement);
+                mma->setReach(csvElement);
+                
              }
              if (i == 7){
-                mma.setStance(csvElement);
+                mma->setStance(csvElement);
              }
              if (i == 8){
-                mma.setWins(csvElement);
+                mma->setWins(csvElement);
+  
              }
               if (i == 9){
-                mma.setLosses(csvElement);
+                mma->setLosses(csvElement);
+                
              }
              if (i == 10){
-                mma.setDraws(csvElement);
+                mma->setDraws(csvElement);
              }
             if (i == 11){
-                mma.setTotalFights(csvElement);
+                mma->setTotalFights(csvElement);
              }
               i++; 
-            }
-        tree->insert(mma.getFighterNumber(), nullptr, mma);
+        }
+        tree->setRoot(tree->insert(mma->getFighterNumber(), tree->Root(), *mma));
         }
     }
         inFile.close();
@@ -266,7 +277,7 @@ void readSavedFile(string file, AvlTree*& tree)
             getline(inFile, MMAData);
             //inFile.ignore();
             //add database to BSTree
-            tree->insert(mma.getFighterNumber(), nullptr, mma);
+            tree->setRoot(tree->insert(mma.getFighterNumber(), tree->Root(), mma));
         }
         
     }
@@ -325,7 +336,7 @@ void addRecord(AvlTree* tree)
     string uniqueID, fName, lName, nickName; 
     string  height, _reach, _weight, _stance;
     string _wins, _losses, _draws, _totalFights; //holds mma database fields
-    
+
     char choice = '\0';
     
     cout << "We will proceed to insert a new fighter record into the database!" << endl << endl;
@@ -469,7 +480,7 @@ void addRecord(AvlTree* tree)
         _MMAFighter.setTotalFights(_totalFights);
         
                     //add mma fighter to database
-        tree->insert(_MMAFighter.getFighterNumber(), nullptr, _MMAFighter);
+        tree->setRoot(tree->insert(_MMAFighter.getFighterNumber(), tree->Root(), _MMAFighter));
                 
         cout << "Display updated tree? (Y/N): ";
         cin >> choice;
@@ -580,9 +591,9 @@ Node* search(AvlTree *tree)
                     
                     //search for fighter number
                     if (option == 1)
-                    {
-                        string _fighterNumber;  //holds user input for id
-                        //user inputs user id to search for
+                    {   tree->setTreatAsInt(true);
+                        string _fighterNumber;  
+                        //user inputs fighter  id to search for
                         cout << "Search for fighter Number: ";
                         cin >> _fighterNumber;
                         cout << endl << endl;
@@ -605,7 +616,7 @@ Node* search(AvlTree *tree)
                     
                     //search for first name
                     else if (option == 2)
-                    {
+                    {   tree->setTreatAsInt(false);
                         string _first_Name;   //holds user input first name
                         cout << "Search first name: ";
                         cin >> _first_Name;
@@ -630,7 +641,7 @@ Node* search(AvlTree *tree)
 
                     //Last name
                     else if (option == 3)
-                    {
+                    {   tree->setTreatAsInt(false);
                         cin.ignore();
                         string _last_Name;
                         cout << "Search last name: ";
@@ -656,7 +667,7 @@ Node* search(AvlTree *tree)
                     
                     //nickname
                     else if (option == 4)
-                    {
+                    {   tree->setTreatAsInt(false);
                         cin.ignore();
                         string _nick_Name;
                         cout << "Search for nick name of the fighter record you want to delete: ";
@@ -682,7 +693,7 @@ Node* search(AvlTree *tree)
                     
                     //height
                     else if (option == 5)
-                    {
+                    {   tree->setTreatAsInt(true);
                         cin.ignore();
                         string _height;
                         cout << "Search for height ";
@@ -708,7 +719,7 @@ Node* search(AvlTree *tree)
                     
                     //weight
                     else if (option == 6)
-                    {
+                    {   tree->setTreatAsInt(true);
                         cin.ignore();
                         string _weight;
                         cout << "Search by weight: ";
@@ -734,7 +745,7 @@ Node* search(AvlTree *tree)
                     
                     //reach
                     else if (option == 7)
-                    {
+                    {   tree->setTreatAsInt(true);
                         string _reach;
                         cout << "Search by fighter's reach: ";
                         cin >> _reach;
@@ -853,58 +864,65 @@ AvlTree* exact_Search(Node* node, int option, string data, AvlTree* tree)
         //user id
         if (option == 1)
         {
+            tree->setTreatAsInt(true);
             //if user input search is equal to id in database,
             //add the node to the temporary tree
             if (node->getMMAFighter().getFighterNumber() == data)
-                tree->insert(node->Key(), node, node->getMMAFighter());
+                tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
         }
         //first name
         if (option == 2)
         {
+            tree->setTreatAsInt(false);
             //if user input search is equal to first name in database,
             //add the node to the temporary tree
             if (node->getMMAFighter().getFirstName() == data)
-                tree->insert(node->Key(), node, node->getMMAFighter());
+                tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
         }
         //last name
         else if (option == 3)
         {
+            tree->setTreatAsInt(false);
             //if user input search is equal to last name in database,
             //add the node to the temporary tree
             if (node->getMMAFighter().getLastName() == data)
-                tree->insert(node->Key(), node, node->getMMAFighter());
+               tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
         }
         //nickname
         else if (option == 4)
         {
+            tree->setTreatAsInt(false);
             //if user input search is equal to company in database,
             //add the node to the temporary tree
             if (node->getMMAFighter().getNickName() == data)
-                tree->insert(node->Key(), node, node->getMMAFighter());
+               tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
         }
         //height
         else if (option == 5)
         {
+            tree->setTreatAsInt(true);
             //if user input search is equal to the height,
             //add the node to the temporary tree
             if (node->getMMAFighter().getHeight() == data)
-                tree->insert(node->Key(), node, node->getMMAFighter());
+                tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
         }
         //weight
         else if (option == 7)
         {
+            tree->setTreatAsInt(true);
             //if user input search is equal to the weight, 
             //add the node to the temporary tree
             if (node->getMMAFighter().getWeight() == data)
-                tree->insert(node->Key(), node, node->getMMAFighter());
+               tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
         }
         //reach
         else if (option == 8)
         {
+            tree->setTreatAsInt(true);
             //if user input search is equal to the reach,
             //add the node to the temporary tree
             if (node->getMMAFighter().getReach() == data)
-                tree->insert(node->Key(), node, node->getMMAFighter());
+                tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
         }
       
         //Traverse entire tree
@@ -929,56 +947,62 @@ AvlTree* contains_Search(Node* node, string data, AvlTree* &tree)
     if (node != nullptr)
     {
         //User id
-    
         //assign search to first record in database
+        tree->setTreatAsInt(true);
         search = node->getMMAFighter().getFighterNumber();
         //assign found to results of search.find() function
         found = search.find(data);
         //if found doesn't reach end of the string, add to tree
         if (found != string::npos)
-            tree->insert(node->Key(), node, node->getMMAFighter());
+            tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
     
         //First name
+        tree->setTreatAsInt(false);
         //assign search to first record in database
         search = node->getMMAFighter().getFirstName();
         found = search.find(data);
         if (found != string::npos)
-            tree->insert(node->Key(), node, node->getMMAFighter());
+            tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
     
          //Last name
         //assign search to first record in database
+        tree->setTreatAsInt(false);
         search = node->getMMAFighter().getLastName();
         found = search.find(data);
         if (found != string::npos)
-            tree->insert(node->Key(), node, node->getMMAFighter());
+           tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
     
         //nickname
         //assign search to first record in database
+        tree->setTreatAsInt(false);
         search = node->getMMAFighter().getNickName();
         found = search.find(data);
         if (found != string::npos)
-            tree->insert(node->Key(), node, node->getMMAFighter());
+           tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
     
         //Height
         //assign search to first record in database
+        tree->setTreatAsInt(true);
         search = node->getMMAFighter().getHeight();
         found = search.find(data);
         if (found != string::npos)
-            tree->insert(node->Key(), node, node->getMMAFighter());
+           tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
     
         //Weight
         //assign search to first record in database
+        tree->setTreatAsInt(true);
         search = node->getMMAFighter().getWeight();
         found = search.find(data);
         if (found != string::npos)
-            tree->insert(node->Key(), node, node->getMMAFighter());
+           tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
         
         //Reach
         //assign search to first record in database
+        tree->setTreatAsInt(true);
         search = node->getMMAFighter().getReach();
         found = search.find(data);
         if (found != string::npos)
-            tree->insert(node->Key(), node, node->getMMAFighter());
+          tree->setRoot(tree->insert(node->Key(), tree->Root(), node->getMMAFighter()));
         
         //recursively traverse entire tree
         contains_Search(node->Left(), data, tree);
@@ -1008,7 +1032,8 @@ AvlTree* modify_Record(AvlTree* &tree)
     string searchData;
     char selection;
     int option;
-    Node *tempNode = new Node();
+    Node *tempNode = new Node;
+    Node *tempNode1;
     MMAFighters MMA;
     
     //check if database is empty
@@ -1035,12 +1060,15 @@ AvlTree* modify_Record(AvlTree* &tree)
             if (selection == 'y' || selection == 'Y')
             {
                 //assign tempNode to record returned from search() function
-                tempNode = search(tree);
+                tempNode1 = search(tree);
             }
             
             //display search result and ask if user would like to delete record
             
-            tree->printInorder(tempNode);
+            tempNode1 = tree->Root();
+
+            cout << tempNode1->MMA << endl;
+            tempNode->setMMAFighter(tempNode1->MMA);
             
             cout << "Would you like to modify this record? (Y/N)" << endl;
             cin >> selection;
@@ -1199,9 +1227,9 @@ AvlTree* modify_Record(AvlTree* &tree)
                     if (selection == 'y' || selection == 'Y')
                     {
                         //delete record from database
-                        tree->deleteNode(searchData);
+                        tree->setRoot(tree->deleteNode1(tempNode1, tempNode1->Key()));
                         //add updated record to database
-                        tree->insert(tempNode->Key(), tempNode, tempNode->getMMAFighter());
+                        tree->setRoot(tree->insert(tempNode->Key(), tree->Root(), tempNode->getMMAFighter()));
                     }
                     
                     //ask user if they would like to modify a different field
@@ -1531,7 +1559,9 @@ AvlTree* delete_Record(AvlTree* &tree)
             {
                 //use key from tempNode to delete record
                 cout << "Deleting MMA records..." << endl << endl;
-                tree->deleteNode(tempNode->Key());
+                //find node to delete
+
+                tree->setRoot(tree->deleteNode1(tempNode, tempNode->Key()));
             }
 
             //Ask user if they would like to delete another record
@@ -1580,7 +1610,8 @@ AvlTree* delete_Record(AvlTree* &tree)
 //****************************************************************************************************
 void save(Node* node, AvlTree* &tree, string fileName)
 {
-    int option;                     //holds user option
+    int option;              
+    int counter = 0;       //holds user option
     vector<MMAFighters> MMAVector;    //temporary vector of MMAFighters MMAVector
     char choice;                    //hodsl user menu choice
     
@@ -1604,10 +1635,23 @@ void save(Node* node, AvlTree* &tree, string fileName)
     if (option == 1)
     {
         ofstream outfile;
-        outfile.open(fileName);
-        
+        string savedFileName;
+        string string1 = to_string(counter);
+        string str("outfile");
+        string str1(".txt");
+        savedFileName = str + str1;
+      
         do
         {
+
+        while (IsPathExist(savedFileName)){
+            counter++;
+            string1 = to_string(counter);
+            savedFileName = str + string1 + str1;
+        }
+
+        outfile.open(savedFileName);
+
             //create new BSTree object temp
             AvlTree *temp = new AvlTree;
             
@@ -1725,22 +1769,30 @@ void save(Node* node, AvlTree* &tree, string fileName)
             }
             
             //ask user if they would like to sort by a different field
-            cout << "File saved. \n\n"<< endl;
+            cout << "File saved as  \n\n"<< savedFileName <<" " << endl;
             cout << "Would you like to save another file? (Y/N)" << endl;
-
+            cin >> choice;
+            outfile.close();
+            delete temp;
             
         } while (choice != 'n' && choice != 'N');
         
         //close the file
-        outfile.close();
+
     }
     //Save As
     else if (option == 2)
     {
-        string file;
+        string file, string1;
     
         cout << "Enter the name of the file you're saving to:" << endl;
+        cin.ignore();
         cin >> file;
+
+        while (IsPathExist(file)){
+            cout << "You already saved to that filename.  Enter a different filename" << endl;
+            cin >> file;
+        }
         
         ofstream outFile;
         outFile.open(file);
@@ -1985,7 +2037,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
             
         tempTree = new AvlTree(true);
     } else {
-        tempTree = new AvlTree;
+        tempTree = new AvlTree(false);
     }
 
     if (option == 1)
@@ -1996,7 +2048,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getFighterNumber(), tempTree->Root(), c[i]);
+            tempTree->setRoot(tempTree->insert(c[i].getFighterNumber(), tempTree->Root(), c[i]));
         }
     }
     else if (option == 2)
@@ -2007,7 +2059,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getFirstName(), tempTree->Root(), c[i]);
+            tempTree->setRoot(tempTree->insert(c[i].getFirstName(), tempTree->Root(), c[i]));
         }
     }
     else if (option == 3)
@@ -2018,7 +2070,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getLastName(), tempTree->Root(), c[i]);
+            tempTree->setRoot(tempTree->insert(c[i].getLastName(), tempTree->Root(), c[i]));
         }
     }
     else if (option == 4)
@@ -2029,7 +2081,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getNickName(), tempTree->Root(), c[i]);
+           tempTree->setRoot(tempTree->insert(c[i].getNickName(), tempTree->Root(), c[i]));
         }
     }
     else if (option == 5)
@@ -2040,7 +2092,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getHeight(), tempTree->Root(), c[i]);
+            tempTree->setRoot(tempTree->insert(c[i].getHeight(), tempTree->Root(), c[i]));
         }
     }
     
@@ -2052,7 +2104,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getWeight(), tempTree->Root(), c[i]);
+            tempTree->setRoot(tempTree->insert(c[i].getWeight(), tempTree->Root(), c[i]));
         }
     }
     
@@ -2064,7 +2116,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getReach(), tempTree->Root(), c[i]);
+            tempTree->setRoot(tempTree->insert(c[i].getReach(), tempTree->Root(), c[i]));
         }
     }
     
@@ -2076,7 +2128,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getStance(), tempTree->Root(), c[i]);
+           tempTree->setRoot(tempTree->insert(c[i].getStance(), tempTree->Root(), c[i]));
         }
     }
     
@@ -2088,7 +2140,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getWins(), tempTree->Root(), c[i]);
+            tempTree->setRoot(tempTree->insert(c[i].getWins(), tempTree->Root(), c[i]));
         }
     }
     
@@ -2100,7 +2152,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getLosses(), tempTree->Root(), c[i]);
+            tempTree->setRoot(tempTree->insert(c[i].getLosses(), tempTree->Root(), c[i]));
         }
     }
     else if (option == 11)
@@ -2111,7 +2163,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getDraws(), tempTree->Root(), c[i]);
+            tempTree->setRoot(tempTree->insert(c[i].getDraws(), tempTree->Root(), c[i]));
         }
     }
     else if (option == 12)
@@ -2122,7 +2174,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         //add vector to database
         for (int i = 0; i < c.size(); i++)
         {
-            tempTree->insert(c[i].getTotalFights(), tempTree->Root(), c[i]);
+            tempTree->setRoot(tempTree->insert(c[i].getTotalFights(), tempTree->Root(), c[i]));
         }
     }    
     //return the sorted tree

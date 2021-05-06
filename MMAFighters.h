@@ -28,6 +28,7 @@ private:
     string reach;
     string stance;
     string totalFights;
+    bool treatAsInt;
 
    
 public:
@@ -46,6 +47,7 @@ public:
     void setReach(string _reach);
     void setStance(string _stance);
     void setTotalFights(string _totalFights);
+    void setTreatAsInt(bool treatAsInt){ this->treatAsInt = treatAsInt;}
 
     
     //Accessor functions
