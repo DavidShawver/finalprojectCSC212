@@ -6,9 +6,9 @@
 #ifndef Menu_h
 #define Menu_h
 
+#include "AvlTree.h"
 #include "functions.h"
 #include "MMAFighters.h"
-#include "BSTree.h"
 #include "Node.h"
 #include <string>
 #include <fstream>
@@ -23,7 +23,7 @@ void Menu()
     int selection;      //holds user menu selection
     string file;        //holds file name
     string fieldSearch;
-    BSTree *currentTree = new BSTree;
+    AvlTree *currentTree = new AvlTree;
     Node *node = new Node;
     
 cout <<     "------------------------------------------" << endl << endl;
