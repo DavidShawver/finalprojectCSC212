@@ -17,7 +17,6 @@ private:
     //node may act as a object of  class
     //
     void insertNode(string key, Node* leaf, MMAFighters MMA);      //add a node
-      //delete nodes
     void freeNode(Node* leaf);                  //freeNode
     bool isLessThanOtherKey(string key1, string key2);
     bool isEqualToOtherKey(string key1, string key2);
@@ -52,7 +51,6 @@ public:
     Node* insert( string key, Node* node, MMAFighters& MMA);
     Node *leftRotate(Node *x);
     Node *rightRotate(Node *x);
-
     Node* deleteNode1(Node* root, string key);
 
     

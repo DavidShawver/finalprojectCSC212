@@ -60,11 +60,13 @@ void readFromFile(AvlTree* &tree)
     cout<< "2.  Saved File" << endl;
     cout <<"3.  Exit\n" << endl;
     cin >> readType;
+    cin.ignore(1000,'\n');
     
     string file;
     std::cout << endl;
     std::cout << "Enter FileName: ";
     cin >> file;
+    cin.ignore(1000,'\n');
     cout << endl;
 
     if (readType == 1){
@@ -86,6 +88,7 @@ void readFromFile(AvlTree* &tree)
     char choice;
     std::cout << "Display updated tree? (Y/N): \n";
     std::cin >> choice;
+    cin.ignore(1000,'\n');
     std::cout << endl << endl;
     
     //char input validator
@@ -93,8 +96,7 @@ void readFromFile(AvlTree* &tree)
     {
         std::cout << "Invalid selection! Please try again" << endl;
         std::cin >> choice;
-        std::cin.clear();
-        std::cin.ignore(256, '\n');
+        cin.ignore(1000,'\n');
     }
     
     if (choice == 'y' || choice == 'Y')
@@ -347,22 +349,24 @@ void addRecord(AvlTree* tree)
         //added to database
         cout << "Enter a unique, 9-digit ID: " << endl;
         cin >> uniqueID;
+        cin.ignore(1000,'\n');
         //input validator
         while (uniqueID.size() > 9 || uniqueID.size() < 9)
         {
                 cout << "Please input a valid ID" << endl;
                 cin >> uniqueID;
+                cin.ignore(1000,'\n');
         }
         _MMAFighter.setFighterNumber(uniqueID);
         
         //first name
-        cin.ignore();
         cout << "Enter a first name: ";
         getline(cin, fName);
         while (fName.size() > 20)
         {
             cout << "Please input a valid first name" << endl;
             cin >> fName;
+            cin.ignore(1000,'\n');
         }
         //set first name to fName
         _MMAFighter.setFirstName(fName);
@@ -371,22 +375,24 @@ void addRecord(AvlTree* tree)
         //last name
         cout << "Enter a last name: ";
         cin >> lName;
+        cin.ignore(1000,'\n');
         while (lName.size() > 20)
         {
             cout << "Please input a valid last  name" << endl;
             cin >> lName;
+            cin.ignore(1000,'\n');
         }
         //set last name to lName
         _MMAFighter.setLastName(lName);
         
         //nickname
-        cin.ignore();
         cout << "Enter the fighter's nickname: ";
         getline(cin, nickName);
         while (nickName.size() > 50)
         {
             cout << "Please input a valid nickName" << endl;
             cin >> nickName;
+            cin.ignore(1000,'\n');
         }
         //set nickname
         _MMAFighter.setNickName(nickName);
@@ -398,6 +404,7 @@ void addRecord(AvlTree* tree)
         {
             cout << "Please input a valid height" << endl;
             cin >> height;
+            cin.ignore(1000,'\n');
         }
         //set fighter's height
         _MMAFighter.setHeight(height);
@@ -409,6 +416,7 @@ void addRecord(AvlTree* tree)
         {
             cout << "Please input a valid reach length" << endl;
             cin >> _reach;
+            cin.ignore(1000,'\n');
         }
         //set reach
         _MMAFighter.setReach(_reach);
@@ -416,21 +424,23 @@ void addRecord(AvlTree* tree)
         //weight
         cout << "Enter the Fighter's weight: " << endl;
         cin >> _weight;
+        cin.ignore(1000,'\n');
         while (_weight.size() > 30)
         {
             cout << "Please input a valid fighter weight" << endl;
             cin >> _weight;
+            cin.ignore(1000,'\n');
         }
         _MMAFighter.setWeight(_weight);
         
         //stance
-        cin.ignore();
         cout << "Enter the fighter's stance" << endl;
         getline(cin, _stance);
         while (_stance.size() > 15)
         {
             cout << "Please input a valid _stance" << endl;
             cin >> _stance;
+            cin.ignore(1000,'\n');
         }
         //set stance
         _MMAFighter.setStance(_stance);
@@ -442,6 +452,7 @@ void addRecord(AvlTree* tree)
         {
             cout << "Please input a valid number of wins" << endl;
             cin >> _wins;
+            cin.ignore(1000,'\n');
         }
         //set number of wins
         _MMAFighter.setWins(_wins);
@@ -453,6 +464,7 @@ void addRecord(AvlTree* tree)
         {
             cout << "Please input a valid number of losses" << endl;
             cin >> _losses;
+            cin.ignore(1000,'\n');
         }
         //set number of losses
         _MMAFighter.setLosses(_losses);
@@ -475,6 +487,7 @@ void addRecord(AvlTree* tree)
         {
             cout << "Please input a valid zip code" << endl;
             cin >> _totalFights;
+            cin.ignore(1000,'\n');
         }
         //set number of total fights the fighter had
         _MMAFighter.setTotalFights(_totalFights);
@@ -490,7 +503,6 @@ void addRecord(AvlTree* tree)
         {
             cout << "Invalid selection! Please try again" << endl;
             cin >> choice;
-            cin.clear();
             cin.ignore(256, '\n');
         }
         
@@ -503,6 +515,7 @@ void addRecord(AvlTree* tree)
         //display message asking user if they would like to add another mma fighter
         cout << "Add another fighter to the database? (Y/N): ";
         cin >> choice;
+        cin.ignore(1000,'\n');
         
         //char input validator
         while (!isalpha(choice))
@@ -552,6 +565,7 @@ Node* search(AvlTree *tree)
             std::cout << "3. Exit" << endl << endl;
             std::cout << "Selection: ";
             std::cin >> option;
+            cin.ignore(1000,'\n');
             
             //int input validator
             while (option < 1 || option > 3 || isdigit(option))
@@ -596,6 +610,7 @@ Node* search(AvlTree *tree)
                         //user inputs fighter  id to search for
                         cout << "Search for fighter Number: ";
                         cin >> _fighterNumber;
+                        cin.ignore(1000,'\n');
                         cout << endl << endl;
 
                         //search for user id using findNode() function
@@ -620,6 +635,7 @@ Node* search(AvlTree *tree)
                         string _first_Name;   //holds user input first name
                         cout << "Search first name: ";
                         cin >> _first_Name;
+                        cin.ignore(1000,'\n');
                         cout << endl << endl;
         
                         //call exact_Search() function
@@ -771,6 +787,7 @@ Node* search(AvlTree *tree)
                     //Allow user to perform another search using a different field
                     cout << "Do you want to search again? (Y/N)\n" << endl;
                     cin >> choice;
+                    cin.ignore(1000,'\n');
                     //char input validator
 
                     while (!isalpha(choice))
@@ -797,8 +814,6 @@ Node* search(AvlTree *tree)
                     AvlTree *temp = new AvlTree;
                     //holds user contains search data
                     string containsData;
-        
-                    std::cin.ignore();
                     //asks user to type in what they're searching for
                     std::cout << "Search: ";
                     getline(std::cin, containsData);
@@ -807,7 +822,6 @@ Node* search(AvlTree *tree)
                     //passing temp to the temporary binary search tree
                     //returned from contains_Search
                     temp = contains_Search(tree->Root(), containsData, temp);
-                    
                     //if the tree is not empty, display the search results
                     //else, display appropriate message to user
                     if (temp->Root() != nullptr)
@@ -823,7 +837,10 @@ Node* search(AvlTree *tree)
                     //ask user if they would like to perform another
                     //contains search
                     std::cout << "Perform another 'contains' search? (Y/N)" << endl;
+
                     std::cin >> choice;
+                    cin.ignore(1000, '\n');
+                    cout << choice << endl;
                     //char input validator
                     while (!isalpha(choice))
                     {
@@ -835,6 +852,7 @@ Node* search(AvlTree *tree)
                     if (choice == 'n' || choice == 'N')
                     {
                         node = temp->Root();
+                        return node;
                     }
                     
                 } while (choice != 'n' && choice != 'N');
@@ -1047,6 +1065,7 @@ AvlTree* modify_Record(AvlTree* &tree)
             string newData;
             cout << "Search for a record to modify? (Y/N)" << endl;
             cin >> selection;
+            cin.ignore(1000, '\n');
             
             //char input validator
             while (!isalpha(selection))
@@ -1062,16 +1081,17 @@ AvlTree* modify_Record(AvlTree* &tree)
                 //assign tempNode to record returned from search() function
                 tempNode1 = search(tree);
             }
+            else {return tree;}
             
             //display search result and ask if user would like to delete record
             
-            tempNode1 = tree->Root();
 
             cout << tempNode1->MMA << endl;
             tempNode->setMMAFighter(tempNode1->MMA);
             
             cout << "Would you like to modify this record? (Y/N)" << endl;
             cin >> selection;
+            cin.ignore(1000, '\n');
             searchData = tempNode->Key();       //assign searchData to tempNode key
             
             //char input validator
@@ -1102,7 +1122,8 @@ AvlTree* modify_Record(AvlTree* &tree)
                     cout << "11. Draws" << endl;
                     cout << "12. Total Fights" << endl;
                     cout << "Selection: ";
-                    cin >> option;   //user selection
+                    cin >> option;   
+                    cin.ignore(1000, '\n');//user selection
                     //int input validator
                     while (option < 1 || option > 12 || isdigit(option))
                     {
@@ -1117,6 +1138,7 @@ AvlTree* modify_Record(AvlTree* &tree)
                     {
                         cout << "Enter the new Fighter Number: ";
                         cin >> newData;
+                        cin.ignore(1000, '\n');
                         tempNode->getMMAFighter().setFighterNumber(newData);
                         tempNode->setKey(newData);
                     }
@@ -1125,6 +1147,7 @@ AvlTree* modify_Record(AvlTree* &tree)
                     {
                         cout << "Enter the new user first name: ";
                         cin >> newData;
+                        cin.ignore(1000, '\n');
                         tempNode->getMMAFighter().setFirstName(newData);
                     }
                     //edit last name
@@ -1132,13 +1155,14 @@ AvlTree* modify_Record(AvlTree* &tree)
                     {
                         cout << "Enter the new user last name: ";
                         cin >> newData;
+                         cin.ignore(1000, '\n');
                         tempNode->getMMAFighter().setLastName(newData);
                     }
 
                     //nickname
                     else if (option == 4)
                     {
-                        cin.ignore();
+                        
                         cout << "Enter the new nickname: ";
                         getline(cin, newData);
                         tempNode->getMMAFighter().setNickName(newData);
@@ -1148,6 +1172,7 @@ AvlTree* modify_Record(AvlTree* &tree)
                     {
                         cout << "Enter the new height: ";
                         cin >> newData;
+                        cin.ignore(1000, '\n');
                         tempNode->getMMAFighter().setHeight(newData);
                     }
                     //weight
@@ -1155,6 +1180,7 @@ AvlTree* modify_Record(AvlTree* &tree)
                     {
                         cout << "Enter the new weight: ";
                         cin >> newData;
+                        cin.ignore(1000, '\n');
                         //set new weight to newData
                         tempNode->getMMAFighter().setWeight(newData);
                     }
@@ -1163,6 +1189,7 @@ AvlTree* modify_Record(AvlTree* &tree)
                     {
                         cout << "Enter the new reach length: ";
                         cin >> newData;
+                        cin.ignore(1000, '\n');
                         //set new length to newData
                         tempNode->getMMAFighter().setReach(newData);
                     }
@@ -1171,13 +1198,13 @@ AvlTree* modify_Record(AvlTree* &tree)
                     {
                         cout << "Enter the new stance: ";
                         cin >> newData;
+                        cin.ignore(1000, '\n');
                         //set new stance to newData
                         tempNode->getMMAFighter().setStance(newData);
                     }
                     //wins
                     else if (option == 9)
                     {
-                        cin.ignore();
                         cout << "Enter the new number of wins: ";
                         getline(cin, newData);
                         //set new wins value to newData
@@ -1186,7 +1213,6 @@ AvlTree* modify_Record(AvlTree* &tree)
                     // losses
                     else if (option == 10)
                     {
-                        cin.ignore();
                         cout << "Enter the new number of losses: ";
                         getline(cin, newData);
                         //set new losses value to newData
@@ -1197,6 +1223,7 @@ AvlTree* modify_Record(AvlTree* &tree)
                     {
                         cout << "Enter the new number of draws: ";
                         cin >> newData;
+                        cin.ignore(1000, '\n');
                         //sett new number of draws to newData
                         tempNode->getMMAFighter().setDraws(newData);
                     }
@@ -1205,6 +1232,7 @@ AvlTree* modify_Record(AvlTree* &tree)
                     {
                         cout << "Enter the new number of total fights: ";
                         cin >> newData;
+                        cin.ignore(1000, '\n');
                         //set new total number of fights to newData;
                         tempNode->getMMAFighter().setTotalFights(newData);
                     }
@@ -1214,6 +1242,7 @@ AvlTree* modify_Record(AvlTree* &tree)
                     tree->printInorder(tempNode);
                     cout << "Would you like to save your changes? (Y/N)" << endl;
                     cin >> selection;
+                    cin.ignore(1000, '\n');
                     //char input validator
                     while (!isalpha(selection))
                     {
@@ -1227,7 +1256,7 @@ AvlTree* modify_Record(AvlTree* &tree)
                     if (selection == 'y' || selection == 'Y')
                     {
                         //delete record from database
-                        tree->setRoot(tree->deleteNode1(tempNode1, tempNode1->Key()));
+                        tree->setRoot(tree->deleteNode1(tree->Root(), tempNode1->Key()));
                         //add updated record to database
                         tree->setRoot(tree->insert(tempNode->Key(), tree->Root(), tempNode->getMMAFighter()));
                     }
@@ -1235,6 +1264,7 @@ AvlTree* modify_Record(AvlTree* &tree)
                     //ask user if they would like to modify a different field
                     cout << "Would you like to modify another field? (Y/N)" << endl;
                     cin >> selection;
+                    cin.ignore(1000, '\n');
                     //char input validator
                     while (!isalpha(selection))
                     {
@@ -1250,6 +1280,7 @@ AvlTree* modify_Record(AvlTree* &tree)
             
             cout << "Display updated tree? (Y/N)" << endl;
             cin >> selection;
+            cin.ignore(1000, '\n');
             cout << endl << endl;
             
             //char input validator
@@ -1270,6 +1301,7 @@ AvlTree* modify_Record(AvlTree* &tree)
             //ask user if they would liek to modify a different record
             cout << "Modify another record? (Y/N)" << endl;
             cin >> selection;
+            cin.ignore(1000, '\n');
             
             //char input validator
             while (!isalpha(selection))
@@ -1480,6 +1512,7 @@ AvlTree* sort_Records(AvlTree* &tree)
             
             cout << "Display sorted records? (Y/N)" << endl;
             cin >> choice;
+            cin.ignore(1000, '\n');
             
             //char input validator
             while (!isalpha(choice))
@@ -1499,6 +1532,7 @@ AvlTree* sort_Records(AvlTree* &tree)
             //ask user if they would like to sort by different fiel
             cout << "Sort by a different field? (Y/N)" << endl;
             cin >> choice;
+            cin.ignore(256, '\n');
             
             //char input validator
             while (!isalpha(choice))
@@ -1545,6 +1579,7 @@ AvlTree* delete_Record(AvlTree* &tree)
             cout << tempNode->getMMAFighter() << endl;
             cout << "Delete this record? (Y/N)" << endl;
             cin >> choice;
+            cin.ignore(256, '\n');
             //char input validator
             while (!isalpha(choice))
             {
@@ -1561,12 +1596,13 @@ AvlTree* delete_Record(AvlTree* &tree)
                 cout << "Deleting MMA records..." << endl << endl;
                 //find node to delete
 
-                tree->setRoot(tree->deleteNode1(tempNode, tempNode->Key()));
+                tree->setRoot(tree->deleteNode1(tree->Root(), tempNode->Key()));
             }
 
             //Ask user if they would like to delete another record
             cout << "Search for a different record to delete? (Y/N)" << endl;
             cin >> choice;
+            cin.ignore(256, '\n');
             //char input validator
             while (!isalpha(choice))
             {
@@ -1582,6 +1618,7 @@ AvlTree* delete_Record(AvlTree* &tree)
     
     cout << "Display updated tree? (Y/N)" << endl;
     cin >> choice;
+    cin.ignore(256, '\n');
     //char input validator
     while (!isalpha(choice))
     {
@@ -1621,6 +1658,7 @@ void save(Node* node, AvlTree* &tree, string fileName)
     cout << "2. Save As" << endl;
     cout << "3. Exit" << endl;
     cin >> option;
+    cin.ignore(256, '\n');
     
     //int input validator
     while (option < 1 || option > 3 || isdigit(option))
@@ -1772,6 +1810,7 @@ void save(Node* node, AvlTree* &tree, string fileName)
             cout << "File saved as  \n\n"<< savedFileName <<" " << endl;
             cout << "Would you like to save another file? (Y/N)" << endl;
             cin >> choice;
+            cin.ignore(256, '\n');
             outfile.close();
             delete temp;
             
@@ -1786,12 +1825,13 @@ void save(Node* node, AvlTree* &tree, string fileName)
         string file, string1;
     
         cout << "Enter the name of the file you're saving to:" << endl;
-        cin.ignore();
         cin >> file;
+        cin.ignore(256, '\n');
 
         while (IsPathExist(file)){
             cout << "You already saved to that filename.  Enter a different filename" << endl;
             cin >> file;
+            cin.ignore(256, '\n');
         }
         
         ofstream outFile;
@@ -1818,6 +1858,7 @@ void save(Node* node, AvlTree* &tree, string fileName)
             cout << "12. Total Number of Fights" << endl;
             cout << "Selection: ";
             cin >> option;   //user selection
+            cin.ignore(256, '\n');
             
             //int input validator
             while (option < 1 || option > 12 || isdigit(option))
@@ -1937,6 +1978,7 @@ void save(Node* node, AvlTree* &tree, string fileName)
             
             cout << "Sort file by another field? (Y/N)" << endl;
             cin >> choice;
+            cin.ignore(256, '\n');
             
             //char input validator
             while (!isalpha(choice))
