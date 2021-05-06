@@ -3,7 +3,7 @@
  */
 
 #ifndef functions_h
-#define functions_h.
+#define functions_h
 #include <sys/stat.h>
 #include <iostream>
 #include <string>
