@@ -1,0 +1,455 @@
+Fighter number:     104
+First name:         Mason
+Last name:          Fowler
+Nick name:          none
+Height:             180.34
+Weight:             170
+Reach:              data not available
+Stance:             data not available
+Number of wins:     2
+Number of losses:   0
+Number of draws:    0
+Total fights:       2
+|
+Fighter number:     374
+First name:         Sokun
+Last name:          Koh
+Nick name:          none
+Height:             185.42
+Weight:             205
+Reach:              data not available
+Stance:             data not available
+Number of wins:     4
+Number of losses:   1
+Number of draws:    0
+Total fights:       5
+|
+Fighter number:     151
+First name:         Dustin
+Last name:          Moore
+Nick name:          none
+Height:             162.56
+Weight:             125
+Reach:              data not available
+Stance:             data not available
+Number of wins:     0
+Number of losses:   2
+Number of draws:    0
+Total fights:       2
+|
+Fighter number:     1251
+First name:         Kamal
+Last name:          Shalorus
+Nick name:          Prince of Persia
+Height:             172.72
+Weight:             155
+Reach:              "68.0"""
+Stance:             Orthodox
+Number of wins:     7
+Number of losses:   3
+Number of draws:    2
+Total fights:       12
+|
+Fighter number:     335
+First name:         Yuhi
+Last name:          Sano
+Nick name:          none
+Height:             180.34
+Weight:             243
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     0
+Number of losses:   4
+Number of draws:    0
+Total fights:       4
+|
+Fighter number:     693
+First name:         Joe
+Last name:          Schilling
+Nick name:          none
+Height:             190.5
+Weight:             185
+Reach:              data not available
+Stance:             data not available
+Number of wins:     2
+Number of losses:   5
+Number of draws:    0
+Total fights:       7
+|
+Fighter number:     695
+First name:         Moti
+Last name:          Horenstein
+Nick name:          none
+Height:             193.04
+Weight:             230
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     1
+Number of losses:   6
+Number of draws:    0
+Total fights:       7
+|
+Fighter number:     1071
+First name:         Min Soo
+Last name:          Kim
+Nick name:          none
+Height:             185.42
+Weight:             255
+Reach:              data not available
+Stance:             Southpaw
+Number of wins:     3
+Number of losses:   7
+Number of draws:    0
+Total fights:       10
+|
+Fighter number:     1072
+First name:         Masaaki
+Last name:          Satake
+Nick name:          none
+Height:             185.42
+Weight:             220
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     1
+Number of losses:   8
+Number of draws:    1
+Total fights:       10
+|
+Fighter number:     1465
+First name:         Geza
+Last name:          Kalman
+Nick name:          none
+Height:             185.42
+Weight:             200
+Reach:              data not available
+Stance:             data not available
+Number of wins:     4
+Number of losses:   9
+Number of draws:    0
+Total fights:       13
+|
+Fighter number:     1196
+First name:         Cody
+Last name:          Canterbury
+Nick name:          none
+Height:             172.72
+Weight:             155
+Reach:              data not available
+Stance:             data not available
+Number of wins:     1
+Number of losses:   10
+Number of draws:    0
+Total fights:       11
+|
+Fighter number:     1692
+First name:         Zane
+Last name:          Frazier
+Nick name:          Nasty
+Height:             195.58
+Weight:             250
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     4
+Number of losses:   11
+Number of draws:    0
+Total fights:       15
+|
+Fighter number:     1466
+First name:         Miguel
+Last name:          Cosio
+Nick name:          none
+Height:             193.04
+Weight:             205
+Reach:              data not available
+Stance:             data not available
+Number of wins:     1
+Number of losses:   12
+Number of draws:    0
+Total fights:       13
+|
+Fighter number:     1910
+First name:         Alexander
+Last name:          Otsuka
+Nick name:          The Diet Butcher
+Height:             185.42
+Weight:             205
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     4
+Number of losses:   13
+Number of draws:    0
+Total fights:       17
+|
+Fighter number:     1819
+First name:         Idris
+Last name:          Wasi
+Nick name:          none
+Height:             182.88
+Weight:             186
+Reach:              data not available
+Stance:             data not available
+Number of wins:     2
+Number of losses:   14
+Number of draws:    0
+Total fights:       16
+|
+Fighter number:     2339
+First name:         Maurice
+Last name:          Eazel
+Nick name:          none
+Height:             170.18
+Weight:             135
+Reach:              data not available
+Stance:             data not available
+Number of wins:     7
+Number of losses:   15
+Number of draws:    0
+Total fights:       22
+|
+Fighter number:     2275
+First name:         Brandon
+Last name:          Gaines
+Nick name:          none
+Height:             190.5
+Weight:             185
+Reach:              data not available
+Stance:             data not available
+Number of wins:     5
+Number of losses:   16
+Number of draws:    0
+Total fights:       21
+|
+Fighter number:     2400
+First name:         Bobby
+Last name:          Sanchez
+Nick name:          The Kid
+Height:             170.18
+Weight:             155
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     6
+Number of losses:   17
+Number of draws:    0
+Total fights:       23
+|
+Fighter number:     2648
+First name:         Katsuhisa
+Last name:          Fujii
+Nick name:          Shamoji
+Height:             182.88
+Weight:             205
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     9
+Number of losses:   18
+Number of draws:    1
+Total fights:       28
+|
+Fighter number:     2649
+First name:         Daniel
+Last name:          McWilliams
+Nick name:          The Animal
+Height:             185.42
+Weight:             185
+Reach:              data not available
+Stance:             data not available
+Number of wins:     9
+Number of losses:   19
+Number of draws:    0
+Total fights:       28
+|
+Fighter number:     2695
+First name:         Sam
+Last name:          Adkins
+Nick name:          The Experience
+Height:             190.5
+Weight:             225
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     7
+Number of losses:   20
+Number of draws:    2
+Total fights:       29
+|
+Fighter number:     2804
+First name:         Jong Wang
+Last name:          Kim
+Nick name:          none
+Height:             185.42
+Weight:             240
+Reach:              data not available
+Stance:             data not available
+Number of wins:     11
+Number of losses:   21
+Number of draws:    0
+Total fights:       32
+|
+Fighter number:     2877
+First name:         Ray
+Last name:          Perales
+Nick name:          Relentless
+Height:             177.8
+Weight:             170
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     13
+Number of losses:   22
+Number of draws:    0
+Total fights:       35
+|
+Fighter number:     3024
+First name:         Ruben
+Last name:          Villareal
+Nick name:          Warpath
+Height:             193.04
+Weight:             265
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     19
+Number of losses:   23
+Number of draws:    3
+Total fights:       45
+|
+Fighter number:     2941
+First name:         Yoshihisa
+Last name:          Yamamoto
+Nick name:          none
+Height:             187.96
+Weight:             220
+Reach:              data not available
+Stance:             Southpaw
+Number of wins:     14
+Number of losses:   24
+Number of draws:    1
+Total fights:       39
+|
+Fighter number:     2931
+First name:         Jeremiah
+Last name:          O'Neal
+Nick name:          none
+Height:             172.72
+Weight:             260
+Reach:              data not available
+Stance:             data not available
+Number of wins:     13
+Number of losses:   25
+Number of draws:    0
+Total fights:       38
+|
+Fighter number:     2896
+First name:         Leo
+Last name:          Sylvest
+Nick name:          Lethal
+Height:             180.34
+Weight:             205
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     10
+Number of losses:   26
+Number of draws:    0
+Total fights:       36
+|
+Fighter number:     3110
+First name:         Keiichiro
+Last name:          Yamamiya
+Nick name:          none
+Height:             180.34
+Weight:             185
+Reach:              data not available
+Stance:             Southpaw
+Number of wins:     40
+Number of losses:   27
+Number of draws:    10
+Total fights:       77
+|
+Fighter number:     3065
+First name:         John
+Last name:          Renken
+Nick name:          The Saint
+Height:             182.88
+Weight:             190
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     19
+Number of losses:   28
+Number of draws:    3
+Total fights:       50
+|
+Fighter number:     3106
+First name:         Sean
+Last name:          Wilson
+Nick name:          P-Town
+Height:             172.72
+Weight:             145
+Reach:              data not available
+Stance:             data not available
+Number of wins:     36
+Number of losses:   29
+Number of draws:    0
+Total fights:       65
+|
+Fighter number:     3090
+First name:         Ron
+Last name:          Fields
+Nick name:          Killing
+Height:             187.96
+Weight:             200
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     25
+Number of losses:   30
+Number of draws:    1
+Total fights:       56
+|
+Fighter number:     3116
+First name:         Ikuhisa
+Last name:          Minowa
+Nick name:          Minowaman
+Height:             175.26
+Weight:             181
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     51
+Number of losses:   32
+Number of draws:    8
+Total fights:       91
+|
+Fighter number:     3099
+First name:         Vernon
+Last name:          White
+Nick name:          Tiger
+Height:             182.88
+Weight:             205
+Reach:              data not available
+Stance:             Southpaw
+Number of wins:     26
+Number of losses:   33
+Number of draws:    2
+Total fights:       61
+|
+Fighter number:     3121
+First name:         Travis
+Last name:          Fulton
+Nick name:          The Ironman
+Height:             182.88
+Weight:             240
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     127
+Number of losses:   49
+Number of draws:    10
+Total fights:       186
+|
+Fighter number:     3119
+First name:         Shannon
+Last name:          Ritch
+Nick name:          The Cannon
+Height:             175.26
+Weight:             190
+Reach:              data not available
+Stance:             Orthodox
+Number of wins:     47
+Number of losses:   74
+Number of draws:    0
+Total fights:       121
+|

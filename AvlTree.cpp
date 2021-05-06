@@ -187,13 +187,13 @@ Node* AvlTree::deleteNode1(Node* root, string key)
     // than the root's key, then it lies
     // in left subtree 
     if ( isLessThanOtherKey(key, root->Key())) 
-        root->setLeft(deleteNode1(root->left, key)); 
+        root->setLeft(deleteNode1(root->Left(), key)); 
   
     // If the key to be deleted is greater 
     // than the root's key, then it lies 
     // in right subtree 
     else if(isLessThanOtherKey(root->Key(), key)) 
-        root->setRight(deleteNode1(root->right, key)); 
+        root->setRight(deleteNode1(root->Right(), key)); 
   
     // if key is same as root's key, then 
     // This is the node to be deleted 
@@ -223,7 +223,8 @@ Node* AvlTree::deleteNode1(Node* root, string key)
   
             // Copy the inorder successor's 
             // data to this node 
-            root->Key() = temp->Key(); 
+            root->setKey(temp->Key());
+            root->setMMAFighter(temp->MMA);
   
             // Delete the inorder successor 
             root->setRight(deleteNode1(root->Right(), temp->Key()));
