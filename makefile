@@ -1,2 +1,2 @@
 main: main.cpp
-	g++ -g main.cpp BSTree.cpp MMAFighters.cpp -o prog
+	g++ -g main.cpp AvlTree.cpp MMAFighters.cpp -o prog && ./prog

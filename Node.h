@@ -7,27 +7,17 @@
 #include "MMAFighters.h"
 using namespace std;
 
-// A generic tree node class
 
-//Placeholder for a composite data type
-class Datatype{
-private:
-    int number;
-    
-    
-};
-
-//Binary Tree Node
+//AVL Tree Node
 class Node {
-private:
+public:
     string key;            //holds key
-    Datatype data;      //holds data(number)
     Node* left;         //points to left subtree
     Node* right;        //points to right subtree
-    Node* parent;       //points to parent in tree
+    Node* parent;
+    int height;       //points to parent in tree
     MMAFighters MMA;
 
-public:
     Node() { key=-1; left=nullptr; right=nullptr; parent = nullptr;};   //Constructor
     
     //mutator functions
@@ -44,6 +34,7 @@ public:
     Node* Left() { return left; };
     Node* Right() { return right; };
     Node* Parent() { return parent; };
+    Node* newNode(string key, MMAFighters MMA);
 
     //allows node object to act as Contacts class object by
     //allowing the node to use the mutator and accessor functions

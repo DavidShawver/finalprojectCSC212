@@ -1,6 +1,6 @@
 
-
-#include "BSTree.h"
+#include "util.h"
+#include "AvlTree.h"
 #include "Node.h"
 #include <iostream>
 #include <string>
@@ -8,23 +8,23 @@
 using namespace std;
 
 // Constructor
-BSTree::BSTree() {
+AvlTree::AvlTree() {
     root = nullptr;
 }
 
-BSTree::BSTree(bool treatAsInt) {
+AvlTree::AvlTree(bool treatAsInt) {
     root = nullptr;
     this->treatAsInt=treatAsInt;
 }
 
 // Destructor
-BSTree::~BSTree() {
+AvlTree::~AvlTree() {
     if (root !=nullptr)
         freeNode(root);
 }
 
 // Free the node
-void BSTree::freeNode(Node* leaf)
+void AvlTree::freeNode(Node* leaf)
 {
     if ( this->Root() == leaf)
     {
@@ -40,8 +40,10 @@ void BSTree::freeNode(Node* leaf)
     
 }
 
+
 // Add a node
-void BSTree::addNode(string key, MMAFighters newMMAFighter)
+/*
+void AvlTree::insertNode(string key, MMAFighters newMMAFighter)
 {
     // No elements. Add the root
     if ( root == nullptr )
@@ -53,17 +55,17 @@ void BSTree::addNode(string key, MMAFighters newMMAFighter)
     }
     else
     {
-        addNode(key, root, newMMAFighter);
+        insertNode(key, root, newMMAFighter);
     }
 }
 
 // Add a node (private)
-void BSTree::addNode(string key, Node* leaf, MMAFighters newMMAFighter)   
+void AvlTree::insertNode(string key, Node* leaf, MMAFighters newMMAFighter)   
 {
     if ( isLessThanOtherKey(key, leaf->Key()) || isEqualToOtherKey(key, leaf->Key()) )
     {
         if ( leaf->Left() != nullptr )
-            addNode(key, leaf->Left(), newMMAFighter);
+            insertNode(key, leaf->Left(), newMMAFighter);
         else
         {
             Node* n = new Node();
@@ -76,7 +78,7 @@ void BSTree::addNode(string key, Node* leaf, MMAFighters newMMAFighter)
     else
     {
         if ( leaf->Right() != nullptr )
-            addNode(key, leaf->Right(), newMMAFighter);
+            insertNode(key, leaf->Right(), newMMAFighter);
         else {
             Node* n = new Node();
             n->setKey(key);
@@ -86,9 +88,10 @@ void BSTree::addNode(string key, Node* leaf, MMAFighters newMMAFighter)
         }
     }
 }
+*/
 
 // Find a node
-Node* BSTree::findNode(string key, Node* root)
+Node* AvlTree::findNode(string key, Node* root)
 {
 
     //check if node is equal to nullptr
@@ -115,7 +118,7 @@ Node* BSTree::findNode(string key, Node* root)
 
 
 // Print the BSTree
-void BSTree::printPreorder(Node* root)
+void AvlTree::printPreorder(Node* root)
 {
     //check if node points to nullptr
     if (root != nullptr)
@@ -126,7 +129,7 @@ void BSTree::printPreorder(Node* root)
     }
 }
 
-void BSTree::printInorder(Node* root)
+void AvlTree::printInorder(Node* root)
 {
     //check if node points to nullptr
     if (root != nullptr)
@@ -142,7 +145,7 @@ void BSTree::printInorder(Node* root)
     
 }
 
-void BSTree::printPostorder(Node* root)
+void AvlTree::printPostorder(Node* root)
 {
     //check if node points to nullptr
     if (root != nullptr)
@@ -156,7 +159,7 @@ void BSTree::printPostorder(Node* root)
 // Find the node with min key
 // Traverse the left sub-BSTree recursively
 // till left sub-BSTree is empty to get min
-Node* BSTree::min(Node* node)
+Node* AvlTree::min(Node* node)
 {
     Node* tempNode = node;
     if ( node == nullptr )
@@ -174,51 +177,17 @@ Node* BSTree::min(Node* node)
 // Find the node with max key
 // Traverse the right sub-BSTree recursively
 // till right sub-BSTree is empty to get max
-Node* BSTree::max(Node* node)
+Node* AvlTree::max_(Node* node)
 {
     Node * tempNode = node;
     if ( node == nullptr )
         tempNode = nullptr;
     else if ( node->Right() )
-        tempNode = max(node->Right());
+        tempNode = max_(node->Right());
     else
         tempNode = node;
     
     return tempNode;
-}
-
-// Find successor to a node
-// Find the node, get the node with max value
-// for the right sub-BSTree to get the successor
-Node* BSTree::successor(string key, Node *node)
-{
-    
-    
-    Node *successor = nullptr;
-    Node *current  = root;
-    if(root == nullptr)
-        return NULL;
-    
-    while( !isEqualToOtherKey(current->Key(), key) ){
-        /* If node value is greater than the node which are looking for, then go to left sub tree
-         Also when we move left, update the successor pointer to keep track of lst left turn */
-        
-        if( isLessThanOtherKey(key,current->Key()) ){
-            successor = current;
-            current= current->Left();
-        }
-        /* Else take right turn and no need to update successor pointer */
-        else
-            current = current->Right();
-    }
-    /*Once we reached at the node for which inorder successor is to be found, check if it has right sub tree, if yes then find the minimum in that right sub tree and return that node
-     
-     Else last left turn taken node is already stored in successor pointer and will be returned*/
-    if(current && current->Right()){
-        successor = min(current->Right());
-    }
-    
-    return successor;
 }
 
 string removeSpaces(string input)
@@ -235,7 +204,7 @@ bool isNumber(const string& str)
     return true;
 }
 
-bool BSTree::shouldWeCompareAsInteger(string key1, string key2){
+bool AvlTree::shouldWeCompareAsInteger(string key1, string key2){
     if(treatAsInt == true && !key1.empty() && !key2.empty() && isNumber(removeSpaces(key1)) && isNumber(removeSpaces(key2))){
         return true;
     } else {
@@ -243,7 +212,7 @@ bool BSTree::shouldWeCompareAsInteger(string key1, string key2){
     }
 }
 
-bool BSTree::isLessThanOtherKey(string key1, string key2){
+bool AvlTree::isLessThanOtherKey(string key1, string key2){
 
     bool result;
 
@@ -256,7 +225,7 @@ bool BSTree::isLessThanOtherKey(string key1, string key2){
     return result;
 }
 
-bool BSTree::isEqualToOtherKey(string key1, string key2){
+bool AvlTree::isEqualToOtherKey(string key1, string key2){
 
     bool result;
 
@@ -269,43 +238,14 @@ bool BSTree::isEqualToOtherKey(string key1, string key2){
     return result;
 }
 
-// Find predecessor to a node
-// Find the node, get the node with max value
-// for the left sub-BSTree to get the predecessor
-Node* BSTree::predecessor(string key, Node *node)
-{
-    Node* current = findNode(key, node);
-    
-    if (current == nullptr)
-    { return nullptr; }
-    
-    if (current->Left() !=nullptr)
-    {
-        return max(current->Left());
-    } else
-        
-    {
-        Node *tempParent = current->Parent();
-        while (tempParent !=nullptr) {
-            if (current == tempParent->Right() ){
-                break;
-            }
-            current = tempParent;
-            tempParent = current->Parent();
-        }
-        return tempParent;
-    }
-}
-
-
-void BSTree::deleteNode(string key)
+void AvlTree::deleteNode(string key)
 {
     if (deleteNode(Root(), key) == nullptr)
         setRoot(nullptr);
 }
 
 //deleteNode (Private)
-Node* BSTree::deleteNode(Node* root, string key)
+Node* AvlTree::deleteNode(Node* root, string key)
 {
     
     /* Given a binary search tree and a key, this function deletes the key
@@ -339,4 +279,147 @@ Node* BSTree::deleteNode(Node* root, string key)
     }
     return root;
     
+}
+
+
+
+/* Helper function that allocates a
+   new node with the given key and
+   NULL left and right pointers. */
+Node* AvlTree::addNode(string key, MMAFighters MMA)
+{
+    Node* node = new Node();
+    node->key = key;
+    node->left = nullptr;
+    node->right = nullptr;
+    node->MMA = MMA;
+    node->height = 1; // new node is initially
+                      // added at leaf
+    return(node);
+}
+
+// A utility function to right
+// rotate subtree rooted with y
+// See the diagram given above.
+Node *AvlTree::rightRotate(Node *y)
+{
+    Node *x = y->left;
+    Node *T2 = x->right;
+ 
+    // Perform rotation
+    x->right = y;
+    y->left = T2;
+ 
+    // Update heights
+    y->height = max(height(y->left),
+                    height(y->right)) + 1;
+    x->height = max(height(x->left),
+                    height(x->right)) + 1;
+ 
+    // Return new root
+    return x;
+}
+
+// A utility function to left
+// rotate subtree rooted with x
+// See the diagram given above.
+Node *AvlTree::leftRotate(Node *x)
+{
+    Node *y = x->right;
+    Node *T2 = y->left;
+ 
+    // Perform rotation
+    y->left = x;
+    x->right = T2;
+ 
+    // Update heights
+    x->height = max(height(x->left),   
+                    height(x->right)) + 1;
+    y->height = max(height(y->left),
+                    height(y->right)) + 1;
+ 
+    // Return new root
+    return y;
+}
+
+// Get Balance factor of node N
+int AvlTree::getBalance(Node *N)
+{
+    if (N == nullptr)
+        {return 0;}
+    return (height(N->left) - height(N->right));
+}
+
+// Recursive function to insert a key
+// in the subtree rooted with node and
+// returns the new root of the subtree.
+
+
+Node* AvlTree::insert(string key, Node* node, MMAFighters MMA)
+{
+    /* 1. Perform the normal BST insertion */
+    if (node == nullptr)
+        {return(addNode(key, MMA));}
+ 
+    if (isLessThanOtherKey(key, node->key)|| isEqualToOtherKey(key, node->key)){
+        node->left = insert(key, node->left, MMA);}
+    else if (key > node->key)
+        node->right = insert(key, node->right, MMA);
+    else // Equal keys are not allowed in BST
+        return node;
+ 
+    /* 2. Update height of this ancestor node */
+    node->height = 1 + max(height(node->left),
+                        height(node->right));
+ 
+    /* 3. Get the balance factor of this ancestor
+        node to check whether this node became
+        unbalanced */
+    int balance = getBalance(node);
+ 
+    // If this node becomes unbalanced, then
+    // there are 4 cases
+ 
+    // Left Left Case
+    if (balance > 1 && key < node->left->key)
+    {
+        return rightRotate(node);
+    }
+ 
+    // Right Right Case
+    if (balance < -1 && key > node->right->key)
+    {
+        return leftRotate(node);
+    }
+ 
+    // Left Right Case
+    if (balance > 1 && key > node->left->key)
+    {
+        node->left = leftRotate(node->left);
+        return rightRotate(node);
+    }
+ 
+    // Right Left Case
+    if (balance < -1 && key < node->right->key)
+    {
+        node->right = rightRotate(node->right);
+        return leftRotate(node);
+    }
+ 
+    /* return the (unchanged) node pointer */
+    return node;
+}
+
+// A utility function to print preorder
+// traversal of the tree.
+// The function also prints height
+// of every node
+void AvlTree::preOrder(Node *root)
+{
+    if(root != NULL)
+    {
+        cout << root->key << " ";
+        preOrder(root->left);
+        preOrder(root->right);
+    }
 }
