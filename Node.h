@@ -25,7 +25,7 @@ public:
     void setLeft(Node* aLeft) { left = aLeft; };
     void setRight(Node* aRight) { right = aRight; };
     void setParent(Node* aParent) { parent = aParent; };
-    Node* setHeight(int height){this->height = height;}
+    void setHeight(int height){this->height = height;};
     
     
     //set fighter object to _MMAFighter

@@ -3,7 +3,7 @@
  */
 
 #ifndef functions_h
-#define functions_h.
+#define functions_h
 #include <sys/stat.h>
 #include <iostream>
 #include <string>
@@ -79,7 +79,7 @@ void readFromFile(AvlTree* &tree)
         return;
     }
     if (readType < 1 || readType > 3){
-        "Please enter a valid choice";
+        cout << "Please enter a valid choice" << endl;
     }
     //display status to user
     std::cout << "File read successfully!" << endl << endl;
@@ -111,7 +111,6 @@ void readFightMetricFile(string file, AvlTree* &tree){
 
     //holds fields of the MMA data
     string MMAData;
-    char choice;
     
     //open file
     ifstream inFile;
@@ -195,7 +194,6 @@ void readSavedFile(string file, AvlTree*& tree)
 {
     //holds fields of the mma database
     string MMAData;
-    char choice;
     
     //open file
     ifstream inFile;
@@ -2088,7 +2086,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
             tempTree->setRoot(tempTree->insert(c[i].getFighterNumber(), tempTree->Root(), c[i]));
         }
@@ -2099,7 +2097,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
 
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
             tempTree->setRoot(tempTree->insert(c[i].getFirstName(), tempTree->Root(), c[i]));
         }
@@ -2110,7 +2108,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
             tempTree->setRoot(tempTree->insert(c[i].getLastName(), tempTree->Root(), c[i]));
         }
@@ -2121,7 +2119,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
            tempTree->setRoot(tempTree->insert(c[i].getNickName(), tempTree->Root(), c[i]));
         }
@@ -2132,7 +2130,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
             tempTree->setRoot(tempTree->insert(c[i].getHeight(), tempTree->Root(), c[i]));
         }
@@ -2144,7 +2142,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
             tempTree->setRoot(tempTree->insert(c[i].getWeight(), tempTree->Root(), c[i]));
         }
@@ -2156,7 +2154,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
             tempTree->setRoot(tempTree->insert(c[i].getReach(), tempTree->Root(), c[i]));
         }
@@ -2168,7 +2166,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
            tempTree->setRoot(tempTree->insert(c[i].getStance(), tempTree->Root(), c[i]));
         }
@@ -2180,7 +2178,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
             tempTree->setRoot(tempTree->insert(c[i].getWins(), tempTree->Root(), c[i]));
         }
@@ -2192,7 +2190,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
             tempTree->setRoot(tempTree->insert(c[i].getLosses(), tempTree->Root(), c[i]));
         }
@@ -2203,7 +2201,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
             tempTree->setRoot(tempTree->insert(c[i].getDraws(), tempTree->Root(), c[i]));
         }
@@ -2214,7 +2212,7 @@ AvlTree* sortedTree(int option, vector<MMAFighters> &c)
         cout << "Sorting the database..." << endl << endl;
         
         //add vector to database
-        for (int i = 0; i < c.size(); i++)
+        for (size_t i = 0; i < c.size(); i++)
         {
             tempTree->setRoot(tempTree->insert(c[i].getTotalFights(), tempTree->Root(), c[i]));
         }

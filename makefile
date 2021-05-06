@@ -1,2 +1,2 @@
 main: main.cpp
-	g++ -g main.cpp AvlTree.cpp MMAFighters.cpp -o prog && ./prog
+	g++ -std=c++11 -Wall main.cpp AvlTree.cpp MMAFighters.cpp -o prog && ./prog
