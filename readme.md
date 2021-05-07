@@ -174,7 +174,7 @@ In implementing my Avl tree class I of course used linked lists.  A linked list 
 
 The program still has a few bugs.  The most serious one is that the delete function sometimes deletes the entire tree of data.  Other than that there is certain menu behavior that i would like to improve.  When you accidentally hit '2' in the menu the program makes you enter in a new MMA fighter even if it was a mistake.  That is easily fixed and I will do so as soon as I have more time.
 
-### Potential Bugs
+### Easter Eggs
 
 I made a feature that checks if the filename you want to give already exists in the folder.  It then prompts you to change the filename.  It does the same thing for "Save," in which it titles the file "Outfile.txt" and increments by 1 for each "Outfile" that already exists in the folder.
 
