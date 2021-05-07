@@ -172,7 +172,7 @@ In implementing my Avl tree class I of course used linked lists.  A linked list 
 
 ### Potential Bugs
 
-The program still has a few bugs.  The most serious ones are that the delete function sometimes deletes the entire tree of data, and the modify function is not working.  Both of these functions were working at an earlier date.  Other than that there is certain menu behavior that I would like to improve.  For example, when you accidentally hit '2' in the menu the program makes you enter in a new MMA fighter even if it was a mistake.  That is easily fixed and I will do so as soon as I have more time.
+The program still has a few bugs.  I was having some trouble with modify and delete, but it looks like they are workig now. There are other problems with the menu.  For example, when you accidentally hit '2' in the menu the program makes you enter in a new MMA fighter even if it was a mistake.  Also when you search for a record to modify, you have to hit "exit" in order to the screen where it actually asks you whether you want to modify this record.  Same problem with delete.  These can be easily fixed and I will do so as soon as I have more time.
 
 ### Easter Eggs
 
