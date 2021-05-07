@@ -180,9 +180,7 @@ I made a feature that checks if the filename you want to give already exists in 
 
 ### Group
 
-I created this project completely on my own, but did consult online for how to do an AVL tree and how to set up a program such as this one, and a few other things.
-
-I also learned how to use Git and Github for this project and created a readme.MD file, which has links and pictures for the project's Github page.
+I created this project completely on my own, but did consult online for how to do an AVL tree and how to set up a program such as this one, and a few other things.  I added ASCI art of a karate man for the menu.  I also learned how to use Git and Github for this project and created a readme.MD file, which has links and pictures for the project's Github page.
 
 ### Topic Overview
 
